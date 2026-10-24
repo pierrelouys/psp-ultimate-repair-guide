@@ -3,6 +3,8 @@
   const data = window.PSP_GUIDE_DATA;
   if (!data || !Array.isArray(data.pages)) return;
 
+  // The original title/cover screen (p0) is intentionally excluded from the web edition.
+  data.pages = data.pages.filter(page => page.id !== 'p0');
   const pages = data.pages;
   const pageById = new Map(pages.map(page => [page.id, page]));
   const navigation = document.getElementById('siteNavigation');
@@ -15,7 +17,7 @@
   const lightboxImage = document.getElementById('lightboxImage');
   const lightboxCaption = document.getElementById('lightboxCaption');
   const lightboxClose = document.getElementById('lightboxClose');
-  let currentPageId = 'p0';
+  let currentPageId = 'p1';
   let lastFocusedImage = null;
 
   const displayTitle = page => page.displayTitle || page.title;
@@ -276,7 +278,7 @@
   }
 
   function renderPage(id) {
-    const page = pageById.get(id) || pageById.get('p0');
+    const page = pageById.get(id) || pageById.get('p1');
     currentPageId = page.id;
     document.title = `${displayTitle(page)} — ${data.title}`;
     const position = pages.findIndex(item => item.id === page.id) + 1;
@@ -307,7 +309,7 @@
     renderContentBlocks(stream, page.blocks);
     article.appendChild(stream);
     renderPageActions(article, page, menuPage);
-    if (page.id === 'p0') renderArchiveGallery(article);
+    if (page.id === 'p1') renderArchiveGallery(article);
 
     const meta = document.createElement('div');
     meta.className = 'article-meta';
@@ -321,7 +323,7 @@
 
   function routeFromHash() {
     const id = decodeURIComponent(window.location.hash.replace(/^#/, ''));
-    return pageById.has(id) ? id : 'p0';
+    return pageById.has(id) ? id : 'p1';
   }
 
   function navigateFromHash() {
@@ -367,7 +369,7 @@
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
 
   if (!window.location.hash || !pageById.has(window.location.hash.slice(1))) {
-    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#p0`);
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#p1`);
   }
   renderPage(routeFromHash());
 })();
