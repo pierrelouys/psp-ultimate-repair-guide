@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2a">
+  <meta name="description" content="A browser-friendly edition of Wanclickid's PSP Ultimate Repair Guide, with original guide text, photos, diagrams and page navigation.">
+  <title>PSP Ultimate Repair Guide V.1</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#article">Skip to guide content</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Guide navigation">
+      <a class="brand" href="#p0" aria-label="PSP Ultimate Repair Guide home">
+        <span class="brand-mark" aria-hidden="true">PSP</span>
+        <span class="brand-copy">
+          <strong>Ultimate Repair Guide V.1</strong>
+          <span>Original guide archive</span>
+        </span>
+      </a>
+
+      <div class="search-wrap">
+        <label for="guideSearch">Search the guide</label>
+        <div class="search-field">
+          <span aria-hidden="true" class="search-icon">⌕</span>
+          <input id="guideSearch" type="search" autocomplete="off" placeholder="Try “backlight fuse”…">
+          <kbd>Esc</kbd>
+        </div>
+        <div id="searchResults" class="search-results" hidden aria-live="polite"></div>
+      </div>
+
+      <nav id="siteNavigation" class="site-navigation" aria-label="Guide sections"></nav>
+      <div class="sidebar-bottom">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>65 recovered screens</span>
+        <span class="sidebar-credit">Original guide by Wanclickid</span>
+      </div>
+    </aside>
+
+    <main class="main-column">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span class="eyebrow">REPAIR MANUAL <span aria-hidden="true">/</span> WEB EDITION</span>
+          <span id="pageCounter" class="page-counter">Screen 1 of 65</span>
+        </div>
+        <div class="topbar-actions">
+          <a class="topbar-home" href="#p1">Main menu <span aria-hidden="true">↗</span></a>
+          <button class="icon-button" id="printButton" type="button" title="Print this page">Print</button>
+        </div>
+      </header>
+
+      <article id="article" class="article" tabindex="-1" aria-live="polite">
+        <p class="loading-note">Loading the guide…</p>
+      </article>
+
+      <footer class="site-footer">
+        <span>PSP Ultimate Repair Guide</span>
+        <span>Original author: Wanclickid</span>
+        <span>Static HTML · Works on GitHub Pages</span>
+      </footer>
+    </main>
+  </div>
+
+  <div id="lightbox" class="lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded image">
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Close expanded image">×</button>
+    <img id="lightboxImage" alt="">
+    <p id="lightboxCaption" class="lightbox-caption"></p>
+    <p class="lightbox-hint">Click outside the image or press Esc to close</p>
+  </div>
+</body>
+</html>
