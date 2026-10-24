@@ -1,1 +1,3003 @@
-window.PSP_GUIDE_DATA = {"title":"PSP Ultimate Repair Guide V.1","author":"Wanclickid","pages":[{"id":"p0","title":"Psp Repair Guide","rawTitle":"Psp Repair Guide","blocks":[{"type":"image","src":"assets/images/psp1.jpg","alt":"psp1"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"www.wanclickidrepublic.com"},{"type":"text","text":"Created by: Wanclickid"},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"},{"type":"text","text":"Playstation addict"}],"links":[{"target":null,"navtype":"next","label":"CLICK HERE","href":"p1"}]},{"id":"p1","title":"Main Menu","rawTitle":"Main Menu","blocks":[{"type":"image","src":"assets/images/PSP-Console.jpg","alt":"PSP Console"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Created by Wanclickid"}],"links":[{"target":"Psp Disassemble guide","navtype":"jump","label":"Psp Disassembly","href":"p2"},{"target":"Psp Partlists","navtype":"jump","label":"Psp Partlists","href":"p16"},{"target":"Page1","navtype":"jump","label":"Psp Mainboard Parts","href":"p63"},{"target":"Psp Led Tutorial","navtype":"jump","label":"Psp Led Tutorial","href":"p17"},{"target":"UMD Not Reading 1","navtype":"jump","label":"UMD Not Reading","href":"p39"},{"target":"Power Switch Replacement 1","navtype":"jump","label":"Power Switch Replacement","href":"p43"},{"target":"Psp Analog Replacement","navtype":"jump","label":"Psp Analog Replacement","href":"p49"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"More Tips in Psp Repair","href":"p53"}]},{"id":"p2","title":"Psp Disassemble guide","rawTitle":"Psp Disassemble guide","blocks":[{"type":"image","src":"assets/images/slim_fat_psp.jpg","alt":"slim fat psp"},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"},{"type":"image","src":"assets/images/Playlogo-black.jpg","alt":"Playlogo black"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Fat Disassemble Guide","navtype":"jump","label":"Psp Fat Disassemble Guide","href":"p3"},{"target":"Psp Slim Disassemble Guide","navtype":"jump","label":"Psp Slim Disassemble Guide","href":"p4"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p3","title":"Psp Fat Disassemble Guide","rawTitle":"Psp Fat Disassemble Guide","blocks":[{"type":"image","src":"assets/images/1_1.jpg","alt":"1 1"},{"type":"text","text":"First thing there is to do is the black top faceplate and casing, If you are only switching out the faceplate and casing then you just unscrew what needs to be unscrewed and move over what needs to be moved. The Locations of the Screws are as shown"},{"type":"text","text":"Now to include the buttons, Stick, and nub. Take note of how the buttons are positioned in the case so you can place them back in the same way. Then place the rubber pieces over them and make sure you put it in right. the Stick itself is easy to figure out, you remove the nub, just pull it off the top. It's meant to come off. and then you unscrew the two screws that hold it down."}],"links":[{"target":"Psp Disassemble Guide 2","navtype":"jump","label":"NEXT STEP","href":"p24"},{"target":"Psp Disassemble guide","navtype":"jump","label":"BACK","href":"p2"}]},{"id":"p4","title":"Psp Slim Disassemble Guide","rawTitle":"Psp Slim Disassemble Guide","blocks":[{"type":"text","text":"DISMATELING A PSP SLIM"},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"},{"type":"text","text":"Tools needed:"},{"type":"text","text":"1x 0 or 00 Philips Screwdriver"},{"type":"text","text":"1x small tweezers"},{"type":"text","text":"1x small flat-head screwdriver"},{"type":"text","text":"STEP 1: The first thing you will have to do is remove the Warranty Sticker from the Battery compartment, and depending on the placement of the serial number/device information sticker. You will notice that instead of 6 screws on the back of the original PSP, the new Slim & Lite PSP only has 4 screws (indicated by the 4 red dots), but there are also 3 screws along the trim that must be removed as well, one at the bottom, and 2 at the top. Now the Face-plate may be removed."},{"type":"image","src":"assets/images/STEP1.png","alt":"STEP1"}],"links":[{"target":"Psp Slim Disassemble Guide Step 2","navtype":"jump","label":"NEXT STEP","href":"p5"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p5","title":"Psp Slim Disassemble Guide Step 2","rawTitle":"!Psp Slim Disassemble Guide Step 2","blocks":[{"type":"text","text":"STEP 2: Now you can see the internals of the PSP, unlike the original PSP, the home bar's ribbon cable isn't attached to the power board, instead it is attached underneath the LCD screen. The Home Bar's clips must be released from both ends of it, not unlike the original, then let the home bar to hang as shown."},{"type":"image","src":"assets/images/STEP2.png","alt":"STEP2"}],"links":[{"target":"Psp Slim Disassemble Guide Step 3","navtype":"jump","label":"NEXT STEP","href":"p6"},{"target":"Psp Slim Disassemble Guide","navtype":"jump","label":"BACK","href":"p4"}]},{"id":"p6","title":"Psp Slim Disassemble Guide Step 3","rawTitle":"!Psp Slim Disassemble Guide Step 3","blocks":[{"type":"text","text":"STEP 3: To remove the LCD you gently pry the clips on the edges, much like you would for the original PSP."},{"type":"image","src":"assets/images/STEP3.png","alt":"STEP3"}],"links":[{"target":"Psp Slim Disassemble Guide Step 4 & 5","navtype":"jump","label":"NEXT STEP","href":"p7"},{"target":"Psp Slim Disassemble Guide Step 2","navtype":"jump","label":"BACK","href":"p5"}]},{"id":"p7","title":"Psp Slim Disassemble Guide Step 4 & 5","rawTitle":"%Psp Slim Disassemble Guide Step 4 & 5","blocks":[{"type":"text","text":"STEP 4: Now, open the ribbon clamps for the LCD screen and Home bar, by flipping up the tabs on the clamps."},{"type":"image","src":"assets/images/STEP4.png","alt":"STEP4"},{"type":"text","text":"STEP 5: Next, remove the metal shielding, then remove the screws that are holding the trigger buttons in place, and remove them."},{"type":"image","src":"assets/images/STEP5.png","alt":"STEP5"}],"links":[{"target":"Psp Slim Disassemble Guide Step 6 & 7","navtype":"jump","label":"NEXT STEP","href":"p8"},{"target":"Psp Slim Disassemble Guide Step 3","navtype":"jump","label":"BACK","href":"p6"}]},{"id":"p8","title":"Psp Slim Disassemble Guide Step 6 & 7","rawTitle":"%Psp Slim Disassemble Guide Step 6 & 7","blocks":[{"type":"text","text":"STEP 6: Open the Clamp of the D-Pad? ribbon cable, and slip your tweezers underneath it to unseat the cable. You will also have to remove the sticky backed trigger button pad from its shelf on the back-plate, and open the Memory Stick door completely, before you can remove the D-Pad? assembly."},{"type":"text","text":"STEP 7: Remove the screw holding the power board and open the ribbon cable clamp, then remove the power board."},{"type":"image","src":"assets/images/STEP6.png","alt":"STEP6"},{"type":"image","src":"assets/images/STEP7.png","alt":"STEP7"}],"links":[{"target":"Psp Slim Disassemble Guide Step 8","navtype":"jump","label":"NEXT STEP","href":"p9"},{"target":"Psp Slim Disassemble Guide Step 4 & 5","navtype":"jump","label":"BACK","href":"p7"}]},{"id":"p9","title":"Psp Slim Disassemble Guide Step 8","rawTitle":"!Psp Slim Disassemble Guide Step 8","blocks":[{"type":"text","text":"STEP 8: Now remove the screw that is holding the charge plug and disconnect the charge plug terminal. The charge plug is held in by both the screw and plastic clips so gently pry them open until you can easily remove the charge plug. You can also remove the right side speaker by gently prying it out of its clips."},{"type":"image","src":"assets/images/STEP8.png","alt":"STEP8"}],"links":[{"target":"Psp Slim Disassemble Guide Step 9","navtype":"jump","label":"NEXT STEP","href":"p10"},{"target":"Psp Slim Disassemble Guide Step 6 & 7","navtype":"jump","label":"BACK","href":"p8"}]},{"id":"p10","title":"Psp Slim Disassemble Guide Step 9","rawTitle":"!Psp Slim Disassemble Guide Step 9","blocks":[{"type":"text","text":"STEP 9: Now, open the ribbon cable clamp for the face buttons (Square triangle, etc.) and remover the sticky backed trigger button pad from its shelf on the back-plate, and remove the face button FPC (Flexible Printed Circuit)."},{"type":"image","src":"assets/images/STEP9.png","alt":"STEP9"},{"type":"text","text":"STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."},{"type":"text","text":"Once again remove the metal shielding."}],"links":[{"target":"Psp Slim Disassemble Guide Step 10","navtype":"jump","label":"NEXT STEP","href":"p11"},{"target":"Psp Slim Disassemble Guide Step 8","navtype":"jump","label":"BACK","href":"p9"}]},{"id":"p11","title":"Psp Slim Disassemble Guide Step 10","rawTitle":"\"Psp Slim Disassemble Guide Step 10","blocks":[{"type":"text","text":"STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."},{"type":"text","text":"Once again remove the metal shielding."},{"type":"image","src":"assets/images/STEP10.png","alt":"STEP10"}],"links":[{"target":"Psp Slim Disassemble Guide Step 11 & 12","navtype":"jump","label":"NEXT STEP","href":"p12"},{"target":"Psp Slim Disassemble Guide Step 9","navtype":"jump","label":"BACK","href":"p10"}]},{"id":"p12","title":"Psp Slim Disassemble Guide Step 11 & 12","rawTitle":"'Psp Slim Disassemble Guide Step 11 & 12","blocks":[{"type":"text","text":"STEP 11: Now, remove the screw holding the analogue nub in place and remove it."},{"type":"text","text":"STEP 12: Underneath you will see the daughter board for the AV port, remove the screw holding it in and take out the board, remembering to lift from the top and slide the port out."},{"type":"image","src":"assets/images/STEP11.png","alt":"STEP11"},{"type":"image","src":"assets/images/STEP12.png","alt":"STEP12"}],"links":[{"target":"Psp Slim Disassemble Guide Step 13","navtype":"jump","label":"NEXT STEP","href":"p13"},{"target":"Psp Slim Disassemble Guide Step 10","navtype":"jump","label":"BACK","href":"p11"}]},{"id":"p13","title":"Psp Slim Disassemble Guide Step 13","rawTitle":"\"Psp Slim Disassemble Guide Step 13","blocks":[{"type":"text","text":"STEP 13: Now the really fun part, first pry the spring from the UMD door hinge, next to remove the UMD door, the best way I have found is to slide a small flat-head screw-driver into the opening from the front on the right side, and gently prying the hinge out, now there may be a better way to do this but I wasn't willing to try too many ways in the fear of scratching my PSP which was disassembled in less than hour from receiving it. Once the first hinge is removed you can easily remove the second hinge, but the door isn't off yet. You have to remove the H frame hinge from the UMD door, to do this slide the H frame to the bottom of its tracks on the door, and lateral to the door, slightly squeeze above the pins and they will be free."},{"type":"image","src":"assets/images/STEP13.png","alt":"STEP13"},{"type":"text","text":"Now remove the 4 screws from the UMD laser drive and remove it,"}],"links":[{"target":"Psp Slim Disassemble Guide Step 14","navtype":"jump","label":"NEXT STEP","href":"p14"},{"target":"Psp Slim Disassemble Guide Step 11 & 12","navtype":"jump","label":"BACK","href":"p12"}]},{"id":"p14","title":"Psp Slim Disassemble Guide Step 14","rawTitle":"\"Psp Slim Disassemble Guide Step 14","blocks":[{"type":"text","text":"STEP 14: To get the H frame off you will have to either remove the small sticky-backed rubber blocks from the sides of its hinges with your tweezers, or slide a small flat-head screwdriver in between to allow enough space to remove the hinges."},{"type":"image","src":"assets/images/STEP14.png","alt":"STEP14"}],"links":[{"target":"Psp Slim Disassemble Guide Step 15","navtype":"jump","label":"NEXT STEP","href":"p15"},{"target":"Psp Slim Disassemble Guide Step 13","navtype":"jump","label":"BACK","href":"p13"}]},{"id":"p15","title":"Psp Slim Disassemble Guide Step 15","rawTitle":"\"Psp Slim Disassemble Guide Step 15","blocks":[{"type":"text","text":"STEP 15: Now all that's left is to remove the sticky-backed WiFi? antenna from the back-plate and you are done, you now have a completely disassembled PSP Slim & Lite."},{"type":"image","src":"assets/images/STEP15.png","alt":"STEP15"},{"type":"text","text":"And now your done. You've done it with your own hand."},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"image","src":"assets/images/Playlogo-black.jpg","alt":"Playlogo black"},{"type":"text","text":"www.wanclickidrepublic.com"}],"links":[{"target":"Psp Slim Disassemble Guide Step 14","navtype":"jump","label":"BACK","href":"p14"},{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}]},{"id":"p16","title":"Psp Partlists","rawTitle":"Psp Partlists","blocks":[{"type":"image","src":"assets/images/Partslist.jpg","alt":"Partslist"},{"type":"text","text":"1. Mother Board"},{"type":"text","text":"2. WiFi Daughterboard"},{"type":"text","text":"3. Wifi Antena"},{"type":"text","text":"4. D-Pad"},{"type":"text","text":"5. Power-ABXY Board"},{"type":"text","text":"6. PBA Flexcable"},{"type":"text","text":"7. Right Trigger contact"},{"type":"text","text":"8. Power Plug"},{"type":"text","text":"9. Right Speaker"},{"type":"text","text":"10. Left Speaker"},{"type":"image","src":"assets/images/Playlogo-black.jpg","alt":"Playlogo black"}],"links":[{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p17","title":"Psp Led Tutorial","rawTitle":"Psp Led Tutorial","blocks":[{"type":"image","src":"assets/images/1.jpg","alt":"1"},{"type":"text","text":"This is definitely a difficult mod, the pieces are small and the spaces are tight proceed at your own risk.   Expect to damage multiple 0603 LED's so have a corresponding # LED's extra depending on your soldering skill (making this your first soldering project is almost certain to end in disappointment).  That being said we do have a kit available"},{"type":"text","text":"Tools-"},{"type":"text","text":"000 Phillips Screw Driver"},{"type":"text","text":"Low wattage (15-20) Quality Solder Iron or variable temperature Solder Station."},{"type":"text","text":"X-Acto or other blade for stripping/scratching off the insulation on the wire"},{"type":"text","text":"Small Tweezers"},{"type":"text","text":"5/64 Drill bit and drill"},{"type":"text","text":"Supplies-"},{"type":"text","text":"AWG Magnet Wire (enamel coated) (NOT 30AWG Kynar)"},{"type":"text","text":"0603 SMD LED's"},{"type":"text","text":"10 Ohm Resistor for 4 blue"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"},{"type":"text","text":"www.wanclickidrepublic.com"}],"links":[{"target":"Psp Led Tutorial 1","navtype":"jump","label":"NEXT STEP","href":"p18"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p18","title":"Psp Led Tutorial 1","rawTitle":"Psp Led Tutorial 1","blocks":[{"type":"text","text":"I find it is best to find a spring loaded tweezers.  This kind wants to close on its own when you squeeze it opens.  We sell a set that contains the tweezers that I am using in these photos."},{"type":"image","src":"assets/images/2.jpg","alt":"2"},{"type":"image","src":"assets/images/4.jpg","alt":"4"},{"type":"image","src":"assets/images/5.jpg","alt":"5"},{"type":"image","src":"assets/images/3.jpg","alt":"3"},{"type":"text","text":"First you will need to scrape away some of the red enamel coating to reveal the copper, then tin with fresh solder.  Tin the LED and then join the two with a breif application of heat."},{"type":"text","text":"Once completed it looks something like this.  Notice the green marking on the bottom of the LED, think of it as an \"arrow\" that always points toward the cathode or ground side of the LED.  In this photo the cathode would be on the left wire. (once together the whole contraption becomes very delicate, simply bending the wires can cause the LED to break so do as little bending of the wire close to the LED as possible, twisting the wires together causes the wire to rotate and this will often break the LED as well so try to have your wires basically how you want them prior to soldering)"},{"type":"text","text":"Prepare the trigger by drilling a small hole.  I used a 5/64 drill bit.  Try to use the plastic tabs the protrude from the sides as a general guide, you want to be parallel with them and go in about as deep as they go"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Led Tutorial 2","navtype":"jump","label":"NEXT STEP","href":"p19"},{"target":"Psp Led Tutorial","navtype":"jump","label":"BACK","href":"p17"}]},{"id":"p19","title":"Psp Led Tutorial 2","rawTitle":"Psp Led Tutorial 2","blocks":[{"type":"image","src":"assets/images/6.jpg","alt":"6"},{"type":"image","src":"assets/images/7.jpg","alt":"7"},{"type":"image","src":"assets/images/8.jpg","alt":"8"},{"type":"image","src":"assets/images/9.jpg","alt":"9"},{"type":"text","text":"Another angle of the completed drilled hole."},{"type":"text","text":"Put a little hot glue on the led and over the hole and insert the LED as deep as it goes with the bright side facing the long side of the trigger."},{"type":"text","text":"Test it out"},{"type":"text","text":"It should look something like this when installed."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Led Tutorial 3","navtype":"jump","label":"NEXT STEP","href":"p20"},{"target":"Psp Led Tutorial 1","navtype":"jump","label":"BACK","href":"p18"}]},{"id":"p20","title":"Psp Led Tutorial 3","rawTitle":"Psp Led Tutorial 3","blocks":[{"type":"image","src":"assets/images/10.jpg","alt":"10"},{"type":"image","src":"assets/images/11.jpg","alt":"11"},{"type":"image","src":"assets/images/12.jpg","alt":"12"},{"type":"text","text":"We use the same method to attach the other LED's as we did with the trigger button LED's.  For the D-Pad it is necessary to cut a little notch for the wires.  A little hotglue keeps it in place"},{"type":"text","text":"To keep the D-Pad working freely it is important to bore a couple holes so the wires do not need to travel under the rubber pad for far"},{"type":"text","text":"To balance things out we added another LED on the right side in the middle of the ABXY buttons (aka trinagle square etc) just stick it in there and shoot some hot glue down from above"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Led Tutorial 4","navtype":"jump","label":"NEXT STEP","href":"p21"},{"target":"Psp Led Tutorial 2","navtype":"jump","label":"BACK","href":"p19"}]},{"id":"p21","title":"Psp Led Tutorial 4","rawTitle":"Psp Led Tutorial 4","blocks":[{"type":"image","src":"assets/images/13.jpg","alt":"13"},{"type":"image","src":"assets/images/14.jpg","alt":"14"},{"type":"text","text":"We had to cut the circle in the middle of the rubber pad so it would show through properly"},{"type":"text","text":"Updates: It appears possible to skip the transistor and just wire it in direct.  I definitely like this idea from an ease of solder-ability standpoint.  And Hey if it works it works.  view/provide Survey Feedback on the reliability of this method"},{"type":"text","text":"Also see our Forum Discussion many have reported success eliminating the transistor and simply wiring a resistor and the LED's between the power and ground for the onboard LED.  I made an assumption that the circuit was built with just enough to power one LED, apparently the circuit is made well enough that nothing burns out."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Led Tutorial 5","navtype":"jump","label":"NEXT STEP","href":"p22"},{"target":"Psp Led Tutorial 3","navtype":"jump","label":"BACK","href":"p20"}]},{"id":"p22","title":"Psp Led Tutorial 5","rawTitle":"Psp Led Tutorial 5","blocks":[{"type":"image","src":"assets/images/15.jpg","alt":"15"},{"type":"text","text":"Run wires from the positive point for the power led to a 10 Ohm resistor, then into all the positive legs of the LED's.  Then out from all the negative LED legs to the ground point on the ABXY printed circuit board."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"image","src":"assets/images/PSN_logo.png","alt":"PSN logo"}],"links":[{"target":"Psp Led Tutorial 6","navtype":"jump","label":"NEXT STEP","href":"p23"},{"target":"Psp Led Tutorial 4","navtype":"jump","label":"BACK","href":"p21"}]},{"id":"p23","title":"Psp Led Tutorial 6","rawTitle":"Psp Led Tutorial 6","blocks":[{"type":"image","src":"assets/images/16.jpg","alt":"16"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Getting the thing to close properly is the tough part, this is a photo of the difficult part, it turns out you are better off if you run the wires higher rather than lower, keep the wires as short as possible to help them stay in place."},{"type":"image","src":"assets/images/17.jpg","alt":"17"},{"type":"text","text":"As promised when the yellow LED is on the blue ones are off.   I will probably be opening it back up to do some re routing, every button is working but the D pad feels a bit funky and the home button is kind of tight due to my placement of wires coming too close to the buttons."}],"links":[{"target":"Psp Led Tutorial 5","navtype":"jump","label":"BACK","href":"p22"},{"target":"Main Menu","navtype":"jump","label":"MAIN MENU","href":"p1"}]},{"id":"p24","title":"Psp Disassemble Guide 2","rawTitle":"Psp Disassemble Guide 2","blocks":[{"type":"text","text":"Here is what it should look like when you transfer it to the Clear case"},{"type":"text","text":". Remember that the sides of the case are at an angle. If you can't get it completely screwed down you are probably trying to put it straight on instead of at an angle. Once you are done with this then you just put it back on and make sure you snap it back at all the right places, then screw it down."},{"type":"image","src":"assets/images/2_1.jpg","alt":"2 1"}],"links":[{"target":"Psp Disassemble Guide 3","navtype":"jump","label":"NEXT STEP","href":"p25"},{"target":"Psp Fat Disassemble Guide","navtype":"jump","label":"BACK","href":"p3"}]},{"id":"p25","title":"Psp Disassemble Guide 3","rawTitle":"Psp Disassemble Guide 3","blocks":[{"type":"text","text":"If you have to remove it all then I do it like this.."},{"type":"image","src":"assets/images/3_1.jpg","alt":"3 1"},{"type":"text","text":"First is the home bar. It's attached by a little nub on the left side of the LCD case. You take a small flathead screwdriver and pry up just a bit on the bottom of that nub. The left side of it comes off and you can remove the Home Bar from the LCD. Here is the location of the Nub Point."}],"links":[{"target":"Psp Disassemble Guide 4","navtype":"jump","label":"NEXT STEP","href":"p26"},{"target":"Psp Disassemble Guide 2","navtype":"jump","label":"BACK","href":"p24"}]},{"id":"p26","title":"Psp Disassemble Guide 4","rawTitle":"Psp Disassemble Guide 4","blocks":[{"type":"image","src":"assets/images/4_1.jpg","alt":"4 1"},{"type":"text","text":"is attached to the board by a lever system. In other words, there is a flap like tab that holds the ribbon in. You have to flip the tab up (very carefully) and then pull the ribbon out. If the ribbon isn't coming try flipping the tab further up. If the tab is up completely then the ribbon moves with ease. Sometimes unseating itself in the process. Here is the Location of the Ribbon Tab.."}],"links":[{"target":"Psp Disassemble Guide 5","navtype":"jump","label":"NEXT STEP","href":"p27"},{"target":"Psp Disassemble Guide 3","navtype":"jump","label":"BACK","href":"p25"}]},{"id":"p27","title":"Psp Disassemble Guide 5","rawTitle":"Psp Disassemble Guide 5","blocks":[{"type":"image","src":"assets/images/5_1.jpg","alt":"5 1"},{"type":"text","text":"Once this is done you will need to remove the LCD from the LCD Cage, there are two latches on both sides of the LCD Case itself. They are under the case edge. If you pry a small flathead in between the screen and the LCD Case keep the screwdriver in there and put your finger under the LCD Screen and push up. It should come right out (BTW don't feel bad if you can't do this easily, It took me two hours to figure out this trick). Here are the Locations of the LCD Latches.. Just look at it and you will see them.."}],"links":[{"target":"Psp Disassemble Guide 6","navtype":"jump","label":"NEXT STEP","href":"p28"},{"target":"Psp Disassemble Guide 4","navtype":"jump","label":"BACK","href":"p26"}]},{"id":"p28","title":"Psp Disassemble Guide 6","rawTitle":"Psp Disassemble Guide 6","blocks":[{"type":"image","src":"assets/images/6_1.jpg","alt":"6 1"},{"type":"text","text":"After you get the left side up, the right side is easy but don't pull the screen up too far. It is attached with two ribbons There is a tiny one at the left and a bigger one. Both are held down by the same lever system. A small tab that you flip up and remove the ribbons. The tiny lever is very delicate so use the utmost of care flipping it up. The biggest one is cake, just flip up the tab and remove. These two tabs are attached to the main board so do not try to remove any screws before you remove the LCD screen. I do not have a picture of this being done so I will show you where on the Mobo they are. The Small Tab flips Down, and the Bigger one Flips up"}],"links":[{"target":"Psp Disassemble Guide 7","navtype":"jump","label":"NEXT STEP","href":"p29"},{"target":"Psp Disassemble Guide 5","navtype":"jump","label":"BACK","href":"p27"}]},{"id":"p29","title":"Psp Disassemble Guide 7","rawTitle":"Psp Disassemble Guide 7","blocks":[{"type":"image","src":"assets/images/7_1.jpg","alt":"7 1"},{"type":"text","text":"After you remove the LCD screen you will see the LCD cage under it. There are a number of screws you need to remove"},{"type":"text","text":". That will allow you to remove the LCD cage once you open the UMD door. The UMD door is held in partially by the LCD cage screw, so you should open the UMD door to remove the cage. It should be easy to take out but you may need to kinda pull it over to the right to remove the cage."}],"links":[{"target":"Psp Disassemble Guide 8","navtype":"jump","label":"NEXT STEP","href":"p30"},{"target":"Psp Disassemble Guide 6","navtype":"jump","label":"BACK","href":"p28"}]},{"id":"p30","title":"Psp Disassemble Guide 8","rawTitle":"Psp Disassemble Guide 8","blocks":[{"type":"image","src":"assets/images/8_1.jpg","alt":"8 1"},{"type":"text","text":"under that is your motherboard and your Dpad and your ABXY Power board. You remove the screw holding your DPAD down, and then remove the ribbon the same as you have already.. Dpad Screw is Here"}],"links":[{"target":"Psp Disassemble Guide 9","navtype":"jump","label":"NEXT STEP","href":"p31"},{"target":"Psp Disassemble Guide 7","navtype":"jump","label":"BACK","href":"p29"}]},{"id":"p31","title":"Psp Disassemble Guide 9","rawTitle":"Psp Disassemble Guide 9","blocks":[{"type":"image","src":"assets/images/9_1.jpg","alt":"9 1"},{"type":"text","text":"Then you remove the ABXY Power switch but carefully making sure that you get the little black nub out of the power switch on the outside. Note: when you remove that always take special care to know where that black nub is for the switch It's the easiest thing to break if you aren't careful When you reinstall the power board always make sure that nub is in the outer area of the switch correctly Before you push the board into place.told me about how he took all day doing a huge LED mod and everything thing worked. Broke the switch off reinstalling it. Made the whole thing useless. I've broken the switch once. And I will not do it again."},{"type":"text","text":"Gently stick a small flathead screwdriver under it and slightly pull the screwdriver up and the board comes up rather easily. It has a Ribbon in the back attached to the back of the power switch and one on the Motherboard itself, both are tabbed with the levers. Flip the tab up and remove ribbon from the Motherboard and the ribbon from the power switch."}],"links":[{"target":"Psp Disassemble Guide 10","navtype":"jump","label":"NEXT STEP","href":"p32"},{"target":"Psp Disassemble Guide 8","navtype":"jump","label":"BACK","href":"p30"}]},{"id":"p32","title":"Psp Disassemble Guide 10","rawTitle":"Psp Disassemble Guide 10","blocks":[{"type":"text","text":"After the power board is off you can concentrate on some other things, like the AC adapter plug. you just carefully remove the Male plug from the female port on the motherboard. And then unscrew the yellow AC plug port and remove it.."},{"type":"text","text":"There is also a Male Female port that holds the Motherboard into the Wireless card. (that's the long wire you see taped to the whole Motherboard). Note there are two other things that you would need to remove first. One is the two speakers. they are the white tiny plugs on the bottom of the Motherboard. They are easy to remove if you have a tiny set of tweezers. Once you remove these, you would want to use a small flathead screwdriver to pry up slightly on one side, and then use your tweezers to gently grab the speakers and pull them out of the case. They aren't soldered, so it's easy once you get one side up. Make sure you set these chips or components onto a surface that won't get Static electricity. like a table or"},{"type":"text","text":"something."},{"type":"text","text":"The next thing you need to remove is the ribbon for the UMD Laser. This was a bit tricky to figure out because of the type of latch it is. There are two tabs on both sides of the ribbon, if you slide the tabs away from the port you release the pressure on the ribbon and it can be removed. You just slide one tab at a time to the right and it will eventually be released. You slide out those tabs a bit and the ribbon can be removed. It's still attached to the Laser mounting so ignore it for now. There is another ribbon for the other piece of the UMD Drive. It's at the very bottom of the Motherboard. Just flip up the tab and remove the ribbon."},{"type":"image","src":"assets/images/10_1.jpg","alt":"10 1"}],"links":[{"target":"Psp Disassemble Guide 11","navtype":"jump","label":"NEXT STEP","href":"p33"},{"target":"Psp Disassemble Guide 9","navtype":"jump","label":"BACK","href":"p31"}]},{"id":"p33","title":"Psp Disassemble Guide 11","rawTitle":"Psp Disassemble Guide 11","blocks":[{"type":"image","src":"assets/images/11_1.jpg","alt":"11 1"},{"type":"text","text":"Now you need to remove the antennae from the right side of the psp. It's easy you just ease the antennae piece up from the black plastic and then disconnect the black tape that holds the cord down so you have free access to the motherboard. Here is a Rundown of everything you would be removing and where it is.."},{"type":"text","text":"Now you can carefully remove the Motherboard by pulling up the top left hand side which detaches the male/female port that attaches the MEMcard reader and the bottom of the Motherboard. Then you carefully tilt the bottom of the Motherboard up so you can slide the USB port out of the top of the case and remove the motherboard. You will feel it disconnect. It doesn't take much force. It's like a plug kinda. It's just on the bottom of the motherboard. Now you should have the Motherboard out. The antennae will still be attached to the Wifi card and MEM stick reader. Just carefully set that down and then get to work on the small metal cage that covers it up."}],"links":[{"target":"Psp Disassemble Guide 12","navtype":"jump","label":"NEXT STEP","href":"p34"},{"target":"Psp Disassemble Guide 10","navtype":"jump","label":"BACK","href":"p32"}]},{"id":"p34","title":"Psp Disassemble Guide 12","rawTitle":"Psp Disassemble Guide 12","blocks":[{"type":"image","src":"assets/images/12_1.jpg","alt":"12 1"},{"type":"text","text":"here are assorted screws that hold it down."},{"type":"text","text":"After you get it up you should notice that there is one small black screw to the right that doesn't seem to hold anything. It holds the UMD Door in place. Remove it. Now if you played your cards right you should be able to use a small exacto-knife from the back of the case with the UMD door open and place it at the base of the umd door inside and pry it carefully to the inside. Think *CD Case Backwards*. You know how the CD case holds in those little holes on the case to keep the case on it? Image that with the pegs backwards. that's how the door holds on. Once you get one side out you carefully wiggle out the other side and it will come right out."}],"links":[{"target":"Psp Disassemble Guide 13","navtype":"jump","label":"NEXT STEP","href":"p35"},{"target":"Psp Disassemble Guide 11","navtype":"jump","label":"BACK","href":"p33"}]},{"id":"p35","title":"Psp Disassemble Guide 13","rawTitle":"Psp Disassemble Guide 13","blocks":[{"type":"image","src":"assets/images/13_1.jpg","alt":"13 1"},{"type":"text","text":"DHere is a Diagram of where to do this. I used a butter knife.."}],"links":[{"target":"Psp Disassemble Guide 14","navtype":"jump","label":"NEXT STEP","href":"p36"},{"target":"Psp Disassemble Guide 12","navtype":"jump","label":"BACK","href":"p34"}]},{"id":"p36","title":"Psp Disassemble Guide 14","rawTitle":"Psp Disassemble Guide 14","blocks":[{"type":"image","src":"assets/images/14_1.jpg","alt":"14 1"},{"type":"text","text":"Now you need to remove the UMD Drive. It's the whole drive cage in the back. You remove four screws at each corner and it comes out. Then you need to remove that spring on the right side that puts the spring in the UMD opening. While you are doing that make careful note of how it is placed in there, cause you need to put it back in the same"},{"type":"text","text":"way. Here is the Location of the screws and Spring.."},{"type":"text","text":"After that is out you can remove the other things. There is a ribbon for your R button that is just attached by some adhesive. Just peel it off then attach it to the new case by restricting it like a sticker. Be careful not to touch the bottom connectors though. the gold part."}],"links":[{"target":"Psp Disassemble Guide 15","navtype":"jump","label":"NEXT STEP","href":"p37"},{"target":"Psp Disassemble Guide 13","navtype":"jump","label":"BACK","href":"p35"}]},{"id":"p37","title":"Psp Disassemble Guide 15","rawTitle":"Psp Disassemble Guide 15","blocks":[{"type":"image","src":"assets/images/15_1.jpg","alt":"15 1"},{"type":"text","text":"Now there is a small metal piece below it that you can just take out. And your PSP is down to the MEM Stick Door and the power switch."},{"type":"text","text":"Although if you want to trade the grey frames there is a bit more work)"},{"type":"text","text":"For the MEM stick door you need to remove the screws holding it down and take off the top piece. Make sure to note how it is put in there"},{"type":"text","text":"Once it is loose you remove the mem stick door from the PSP. Now you have to get the Rubber piece off of it so you can install it into your new case. You need a small pair of computer pliers and an exacto knife. The rubbery plastic will separate from the black mem stick door, There are five small black pins holding it on. If you look at the clear one (Coolmods) you will see those pins, The Sony Black OEM case has larger ends on the"},{"type":"text","text":"Now the power switch. The power switch is made of two parts. One part is like a hook thing on the switch part. And that goes through a hole on the yellow part that triggers the switch. You take a small screwdriver and push down the grey part that goes through the yellow trigger and the grey switch will come out. It's not rocket surgery. The yellow piece just comes out (I'm not sure if this is the same for All PSP Models. My PSP was a newer model and this may be different for earlier models). Your PSP should be bare now aside from the stock frames."},{"type":"text","text":"Be sure you note that the clear case isn't going to fit like a glove. You may need to use more force to get some things to fit but be careful. If you find it won't fit, try sanding the open port on the case to try and make a better fit. ( Had a particularly interesting time with my Wifi Card Fitting right.. I got it in there eventually though."}],"links":[{"target":"Psp Disassemble Guide 16","navtype":"jump","label":"NEXT STEP","href":"p38"},{"target":"Psp Disassemble Guide 14","navtype":"jump","label":"BACK","href":"p36"}]},{"id":"p38","title":"Psp Disassemble Guide 16","rawTitle":"Psp Disassemble Guide 16","blocks":[{"type":"image","src":"assets/images/16_1.jpg","alt":"16 1"},{"type":"text","text":"One thing that many Pspmodders have been talking about is the UMD Drive Gears stopping the PSP from loading UMDs. If this doesn't happen then don't worry about it. If you can hear the UMD gears turning, then you have this problem. The easiest way to solve this is to dremel off the plastic piece that covers up the UMD Gears. but you risk getting you speaker wires. The best way I found to solve this is to take a Dremel with a round head and just round out whichever side of the round area on the bottom of the plastic piece doesn't get enough clearance to let the gear move. (If you don't have a dremel, then a sharp knife should do.. Just be careful and take little bits at a time.) Just look at your Clear case and where the gears go and I'm sure you will see that they would get slowed down. Use your best judgment and take little bits at a time till you get it right! (T3KN1K4L"},{"type":"text","text":"s PSP is heavily Dremeled but it kept its shape enough."},{"type":"text","text":"Also be wary of the Speaker wire from right speaker. They can get caught in the gears and slow it down too. Just check the back of the LCD Cage for that rubber spacer. It's used to prevent such an occurrence. Make sure that the wires are below that and you will be fine!"},{"type":"text","text":"for some reason while your case is open it works. Once you screw it down is when this occurs)"},{"type":"text","text":"If Coolmods has fixed this problem with the new cases.. Then never mind."},{"type":"text","text":"Once your case is stripped you have some options.. Some coolmods cases come with frames (the outer grey part with the switches). Some do not. If you like the look of your original frames then I included how to remove them in this Tut."},{"type":"text","text":"You will see little tabs on the inside of the frames that hold the frame on the case itself. This is depicted in my pics. First you need to remove the switches. You already got one of them off! Good for you!"},{"type":"text","text":"The second is the Wifi Switch. It's basic. just see how it goes in there. Pretty much the same as the power switch, and remove it. then you can use"},{"type":"text","text":"the tabs to slowly slide the frame off towards the top of the case. It comes off with a little pressure but don't use too much. They are fragile. The side frame will come off with ease too. It's the top that's the ticker."},{"type":"text","text":"If you got your IR Sensor off with ease then good for you! Sometimes it just pops out! (I know mine didn't) If you didn't then just apply some slight pressure with a small flathead screwdriver to the back of the IR Sensor and it will pop out. The open button is just wedged into the frame. Just pull it out at an angle and it will come out rather easily."},{"type":"text","text":"Then you just carefully, slide the frame towards you. You will notice that it stops and if you look at it you will see. two little tabs on both sides of the top frame that hold it on. Pull the tabs out of the slots and slide it back toward you. It should come off."},{"type":"text","text":"Now you replay this all in reverse! Okay, now that everything is all taken apart I wanted to voice out something that anyone should watch for.. There is a tiny black tab on the back of the Motherboard that is depressed when the UMD door is shut with a UMD in it. This is very delicate and goes through a small opening in the in back of the UMD Laser Assembly that lets this tiny nub through so it can get pressed by the UMD Disk. Take extra care to make sure that tab goes into the UMD Laser Assembly correctly, If you break it off. (And it is easy to do) Then your UMD Drive won't turn on. For best results I recommend using this Tut with the new Virtual PSP Modder. Make sure to take care of your screws and remember where they all go! This shouldn't give you too many problems. If you find that you can't use all the screws, just use the ones you can and make sure everything is screwed down as best as possible. You don't have to use all of them. Just as many as you can."}],"links":[{"target":"Psp Disassemble Guide 15","navtype":"jump","label":"BACK","href":"p37"},{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}]},{"id":"p39","title":"UMD Not Reading 1","rawTitle":"UMD Not Reading 1","blocks":[{"type":"text","text":"I have seen many PSP's stop reading UMD discs and for the most part they are repairable with the least amount of opening your PSP."},{"type":"text","text":"First we will do some trouble shooting with what might be wrong with your PSP unit."},{"type":"text","text":"About 35% of the time I find that there is something stuck in the UMD gear. It is different every time, sometimes its a piece of dust, plastic, soda, and even hair."},{"type":"text","text":"Another 25% is the Disc Spinning motor. This will not let The disc in the UMD spin."},{"type":"text","text":"About 20% is the Laser motor, this might be hard to spot since it could be something in the gears."},{"type":"text","text":"About 10% is the actual laser itself. It will not focus the laser to read the UMD disc."},{"type":"text","text":"The Last 10% is the Motherboard. This is the worst outcome, since there is very little what we can do but replace the motherboard."},{"type":"text","text":"So first what we need to do is find out what is actually wrong with your PSP."},{"type":"text","text":"With your PSP in hand."},{"type":"text","text":"Turn on your PSP and remove any UMD that might be in there now."},{"type":"text","text":"If you open up the UMD door and look down inside you will see the Laser assembly."},{"type":"text","text":"If you look to the left there is a black tab that sticks up, this tells the PSP that there is a UMD in the drive."},{"type":"text","text":"UMD NOT READING"}],"links":[{"target":"UMD Not Reading 2","navtype":"jump","label":"NEXT STEP","href":"p40"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p40","title":"UMD Not Reading 2","rawTitle":"UMD Not Reading 2","blocks":[{"type":"text","text":"CAUTION: DO NOT STARE DIRECTLY AT THE LASER."},{"type":"text","text":"If you press this down with a small probe, you should see the disc motor spin and the laser light up red"},{"type":"text","text":"If the Motor is not spinning.  is it moving slightly? Maybe a little twitch?"},{"type":"text","text":"I would lean more towards the bad motor problem BUT would not say for sure, I would recommend that you take the parts out and see if there is another problem also."},{"type":"text","text":"If the laser is not lighting up then it could be the laser, I would try and check the cables to the PSP and see if there is a bad connection."},{"type":"text","text":"If both are running well then lets put a disc in and get your ear up close so you can hear what is going on in there."},{"type":"text","text":"On a working PSP you will hear the disc start to spin up, then you can hear the laser start to twitch, followed by the laser motor moving the laser down the rails."},{"type":"text","text":"Can you hear the disc spin up? If not I would take the disc out again and press the switch with your probe again.  if the disc motor is spinning again, look around to see if the metal housing is obstructing the disc when you put it in.. there could be to much pressure for the disc to spin freely."},{"type":"text","text":"Can you hear the Laser focus? This might be hard to hear it will sound like a little tick. If you cant hear it tick I would move on and inspect this internally  later."},{"type":"text","text":"Can you hear the Laser move down the rail? This will be a smooth sound of the gears, it should not be a really clicky sound."},{"type":"text","text":"If you can't hear it move down the track OR it is very clicky follow this."}],"links":[{"target":"UMD Not Reading 3","navtype":"jump","label":"NEXT STEP","href":"p41"},{"target":"UMD Not Reading 1","navtype":"jump","label":"BACK","href":"p39"}]},{"id":"p41","title":"UMD Not Reading 3","rawTitle":"UMD Not Reading 3","blocks":[{"type":"image","src":"assets/images/UmdGear.jpg","alt":"UmdGear"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"It would look like this if your UMD door was off."},{"type":"text","text":"You should open the UMD door and carefully manually move the laser to the right side of the assembly."},{"type":"text","text":"Use a sharp THIN probe to manually move the WHITE gear under the metal housing. It is quite hard to see it in the photos so I put a red star around it."},{"type":"text","text":"I usually try and scrape the gears themselves to make sure there is no gunk or debris in the gear."}],"links":[{"target":"UMD Not Reading 4","navtype":"jump","label":"NEXT STEP","href":"p42"},{"target":"UMD Not Reading 2","navtype":"jump","label":"BACK","href":"p40"}]},{"id":"p42","title":"UMD Not Reading 4","rawTitle":"UMD Not Reading 4","blocks":[{"type":"image","src":"assets/images/psp slim-fat.jpg","alt":"psp slim fat"},{"type":"text","text":"After this try and see if it is reading UMD again."},{"type":"text","text":"This fixes it about 35% of the time."},{"type":"text","text":"If none of this is working, it is time to open your PSP unit Or send it in for repair."},{"type":"text","text":"If you know what's wrong you can replace the problem here"},{"type":"text","text":"Replace UMD Assembly"},{"type":"text","text":"Replace UMD Disc Motor"},{"type":"text","text":"Replace UMD Laser Motor"},{"type":"text","text":"Replace PSP Motherboard"}],"links":[{"target":"UMD Not Reading 3","navtype":"jump","label":"BACK","href":"p41"},{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}]},{"id":"p43","title":"Power Switch Replacement 1","rawTitle":"Power Switch Replacement 1","blocks":[{"type":"text","text":"POWER SWITCH REPLACEMENT"},{"type":"text","text":"Repairing your PSP Power Switch can be repaired fairly quickly."},{"type":"text","text":"There are two methods for fixing it, one is purchase a new switch or a whole new Powerboard."},{"type":"text","text":"I have seen many sites on the internet where they are selling the power switch and not telling you how to put them in."},{"type":"text","text":"The most cost effective is to replace the switch, It does require soldering and some other tools."},{"type":"text","text":"You can also replace the whole Power Button and ABXY board. This is usually unnecessary unless one of your buttons or LED is not working also."},{"type":"text","text":"Here we are going to show you how to solder on a new switch to your board."},{"type":"text","text":"CAUTION!"},{"type":"image","src":"assets/images/lifted psp switch.jpg","alt":"lifted psp switch"},{"type":"text","text":"Use Extreme Caution when removing the old switch, The solder pads on the board can be lifted off VERY easily."},{"type":"text","text":"If you pry on the wrong part you might not be able to repair this part, and you will need to purchase a new Power Board."}],"links":[{"target":"Power Switch Replacement 2","navtype":"jump","label":"NEXT STEP","href":"p44"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p44","title":"Power Switch Replacement 2","rawTitle":"Power Switch Replacement 2","blocks":[{"type":"image","src":"assets/images/NewSwich.jpg","alt":"NewSwich"},{"type":"text","text":"Tools,"},{"type":"text","text":"1. Tools for opening your PSP"},{"type":"text","text":"2. Diagonal wire snips"},{"type":"text","text":"3. Soldering Iron and solder."},{"type":"text","text":"4. New switch"},{"type":"image","src":"assets/images/1_2.jpg","alt":"1 2"},{"type":"text","text":"Once you get your PBA out of your PSP, remove all of the cables so that it is just like the board in the photo."},{"type":"image","src":"assets/images/2_2.jpg","alt":"2 2"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Take your small flathead screwdriver OR a Sharp knife."},{"type":"text","text":"Pry the clip open that is holding the metal plate on the switch."}],"links":[{"target":"Power Switch Replacement 3","navtype":"jump","label":"NEXT STEP","href":"p45"},{"target":"Power Switch Replacement 1","navtype":"jump","label":"BACK","href":"p43"}]},{"id":"p45","title":"Power Switch Replacement 3","rawTitle":"Power Switch Replacement 3","blocks":[{"type":"image","src":"assets/images/3_2.jpg","alt":"3 2"},{"type":"text","text":"Pry the other side off."},{"type":"image","src":"assets/images/4_2.jpg","alt":"4 2"},{"type":"image","src":"assets/images/5_2.jpg","alt":"5 2"},{"type":"text","text":"Now that you have the clip off there is a spring and the rest of the switch that will fall out. Go ahead and throw this stuff away."},{"type":"text","text":"Before going any further look around at the switch now. See the metal tabs inside the  plastic?"},{"type":"text","text":"You are going to want to remove the plastic, as little metal as possible to not break the solder pads."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Power Switch Replacement 4","navtype":"jump","label":"NEXT STEP","href":"p46"},{"target":"Power Switch Replacement 2","navtype":"jump","label":"BACK","href":"p44"}]},{"id":"p46","title":"Power Switch Replacement 4","rawTitle":"Power Switch Replacement 4","blocks":[{"type":"image","src":"assets/images/6_2.jpg","alt":"6 2"},{"type":"image","src":"assets/images/7_2.jpg","alt":"7 2"},{"type":"image","src":"assets/images/8_2.jpg","alt":"8 2"},{"type":"text","text":"Take your diagonal snips and snip off the plastic, don't go so far as to try and break the metal inside, we will use your hot soldering iron to remove those."},{"type":"text","text":"The plastic is now cracked and you can pick it off with your finger."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Power Switch Replacement 5","navtype":"jump","label":"NEXT STEP","href":"p47"},{"target":"Power Switch Replacement 3","navtype":"jump","label":"BACK","href":"p45"}]},{"id":"p47","title":"Power Switch Replacement 5","rawTitle":"Power Switch Replacement 5","blocks":[{"type":"image","src":"assets/images/10_2.jpg","alt":"10 2"},{"type":"image","src":"assets/images/11_2.jpg","alt":"11 2"},{"type":"image","src":"assets/images/12_2.jpg","alt":"12 2"},{"type":"text","text":"Once the solder is getting liquidy slide it towards you lightly so you pick up the old piece of metal"},{"type":"text","text":"Line up the new switch on the board, make sure the little metal pegs on the front of the switch fit inside the groves."},{"type":"text","text":"Also make sure that the power legs are lined up with the solder pads."},{"type":"text","text":"Finish desoldering the rest like the others."},{"type":"text","text":"Make sure there isn't to much solder on the pads."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Power Switch Replacement 6","navtype":"jump","label":"NEXT STEP","href":"p48"},{"target":"Power Switch Replacement 4","navtype":"jump","label":"BACK","href":"p46"}]},{"id":"p48","title":"Power Switch Replacement 6","rawTitle":"Power Switch Replacement 6","blocks":[{"type":"image","src":"assets/images/13_2.jpg","alt":"13 2"},{"type":"image","src":"assets/images/14_2.jpg","alt":"14 2"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Continue soldering each peg, Don't go to over board with the solder. It should look like this."},{"type":"text","text":"If your board is looking like this. You have lifted a pad...or two....or three.  You are going to have some problems.."},{"type":"text","text":"First off your switch will not be secured down to the board."},{"type":"text","text":"Second The VIA's that you would have to solder to are very small and if you did this much damage it might only get worse."}],"links":[{"target":"Power Switch Replacement 5","navtype":"jump","label":"BACK","href":"p47"},{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}]},{"id":"p49","title":"Psp Analog Replacement","rawTitle":"Psp Analog Replacement","blocks":[{"type":"text","text":"A broken analog stick / joystick is one of the most common psp slim problems. Fortunately, it can be replaced without doing any major psp surgery."},{"type":"text","text":"Symptoms of a broken PSP slim analog stick:"},{"type":"text","text":"* moves on its own"},{"type":"text","text":"* stuck in one direction"},{"type":"text","text":"* top plastic part broken off"},{"type":"text","text":"Stuff you will need:"},{"type":"text","text":"* A couple of small screwdrivers (phillips, flathead)"},{"type":"text","text":"* New PSP slim analog stick / joystick"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Analog Replacement 2","navtype":"jump","label":"NEXT STEP","href":"p50"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p50","title":"Psp Analog Replacement 2","rawTitle":"Psp Analog Replacement 2","blocks":[{"type":"text","text":"FIRST STEP: To get to the PSP slim analog stick you have to remove the faceplate (and void the warranty). This is covered in the PSP slim 2001 screen replacement tutorial. You don't have to remove the screen to remove the analog stick"},{"type":"image","src":"assets/images/1_4.jpg","alt":"1 4"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Psp Analog Replacement 3","navtype":"jump","label":"NEXT STEP","href":"p51"},{"target":"Psp Analog Replacement","navtype":"jump","label":"BACK","href":"p49"}]},{"id":"p51","title":"Psp Analog Replacement 3","rawTitle":"Psp Analog Replacement 3","blocks":[{"type":"image","src":"assets/images/2_3.jpg","alt":"2 3"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Lift the analog stick up and slide it out to the left. You might have to wiggle it around a little bit, but it will come out. Circled in green is the little plastic contact that lets the joystick talk to the motherboard. Try not to lose it, but if you do, that's the time you'll need to buy a new one."}],"links":[{"target":"Psp Analog Replacement 4","navtype":"jump","label":"NEXT STEP","href":"p52"},{"target":"Psp Analog Replacement 2","navtype":"jump","label":"BACK","href":"p50"}]},{"id":"p52","title":"Psp Analog Replacement 4","rawTitle":"Psp Analog Replacement 4","blocks":[{"type":"image","src":"assets/images/3_3.jpg","alt":"3 3"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"psp slim 2001 joystick cap off This is a shot of the joystick with the cap removed. Installation is the reverse of removal."}],"links":[{"target":"Psp Analog Replacement 3","navtype":"jump","label":"BACK","href":"p51"},{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}]},{"id":"p53","title":"Psp Fuse and anything MENU","rawTitle":"Psp Fuse and anything MENU","blocks":[{"type":"image","src":"assets/images/psp image.jpg","alt":"psp image"}],"links":[{"target":"backlight fuse 1","navtype":"jump","label":"Psp Backlight Fuse","href":"p54"},{"target":"Repairing The USB Fuse","navtype":"jump","label":"Psp USB Fuse","href":"p58"},{"target":"Power Fuse1","navtype":"jump","label":"Psp Power Fuse","href":"p60"},{"target":"Parts that Commonly Replace","navtype":"jump","label":"Parts that Commonly Replace","href":"p62"},{"target":"Page2","navtype":"jump","label":"Parts to be check if no POWER","href":"p64"},{"target":"Main Menu","navtype":"jump","label":"BACK","href":"p1"}]},{"id":"p54","title":"backlight fuse 1","rawTitle":"backlight fuse 1","blocks":[{"type":"text","text":"REPAIRING THE BACKLIGHT FUSE"},{"type":"image","src":"assets/images/bad-backlight.jpg","alt":"bad backlight"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Backlight not working? Even after replacing a Backlight?"}],"links":[{"target":"backlight fuse 2","navtype":"jump","label":"NEXT STEP","href":"p55"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK","href":"p53"}]},{"id":"p55","title":"backlight fuse 2","rawTitle":"backlight fuse 2","blocks":[{"type":"image","src":"assets/images/Fd-Fuse 1.jpg","alt":"Fd Fuse 1"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"The fuse for the backlighting is labeled with FD on it."},{"type":"text","text":"Test the continuity of the fuse. If there is continuity then this will not work for you."}],"links":[{"target":"backlight fuse 3","navtype":"jump","label":"NEXT STEP","href":"p56"},{"target":"backlight fuse 1","navtype":"jump","label":"BACK","href":"p54"}]},{"id":"p56","title":"backlight fuse 3","rawTitle":"backlight fuse 3","blocks":[{"type":"image","src":"assets/images/Fd-bridged 2.jpg","alt":"Fd bridged 2"},{"type":"text","text":"You will need to take a small piece of wire and bypass the fuse by soldering the wire to the two pads on the motherboard."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"backlight fuse 4","navtype":"jump","label":"NEXT STEP","href":"p57"},{"target":"backlight fuse 2","navtype":"jump","label":"BACK","href":"p55"}]},{"id":"p57","title":"backlight fuse 4","rawTitle":"backlight fuse 4","blocks":[{"type":"image","src":"assets/images/good-backlight 3.jpg","alt":"good backlight 3"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Now hook up your LCD screen and see if it worked."},{"type":"text","text":"It should look something like this."}],"links":[{"target":"backlight fuse 3","navtype":"jump","label":"BACK","href":"p56"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK TO MAIN MENU","href":"p53"}]},{"id":"p58","title":"Repairing The USB Fuse","rawTitle":"Repairing The USB Fuse","blocks":[{"type":"image","src":"assets/images/Ld-Fuse1.jpg","alt":"Ld Fuse1"},{"type":"text","text":"This LD Fuse. Will cause your USB to not recognize any more."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Repairing The USB Fuse2","navtype":"jump","label":"NEXT STEP","href":"p59"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK","href":"p53"}]},{"id":"p59","title":"Repairing The USB Fuse2","rawTitle":"Repairing The USB Fuse2","blocks":[{"type":"image","src":"assets/images/Ld-bridged2.jpg","alt":"Ld bridged2"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"If there is no continuity through this fuse, You can jumper it and hopefully fix your USB."}],"links":[{"target":"Repairing The USB Fuse","navtype":"jump","label":"BACK","href":"p58"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK TO MAIN MENU","href":"p53"}]},{"id":"p60","title":"Power Fuse1","rawTitle":"Power Fuse1","blocks":[{"type":"text","text":"REPAIRING THE POWER FUSE"},{"type":"image","src":"assets/images/Power Fuse1.jpg","alt":"Power Fuse1"},{"type":"text","text":"This Fuse will cause your PSP To not turn on at all."},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"}],"links":[{"target":"Power Fuse 2","navtype":"jump","label":"NEXT STEP","href":"p61"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK","href":"p53"}]},{"id":"p61","title":"Power Fuse 2","rawTitle":"Power Fuse 2","blocks":[{"type":"image","src":"assets/images/Power fuse bridged2.jpg","alt":"Power fuse bridged2"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"The TD Fuse Is now bridged."},{"type":"text","text":"IF THERE IS CONTINUITY THEN TRY RUNNING THE PSP MOTHERBOARD OUT OF THE CASE."}],"links":[{"target":"Power Fuse1","navtype":"jump","label":"BACK","href":"p60"},{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"MAIN MENU","href":"p53"}]},{"id":"p62","title":"Parts that Commonly Replace","rawTitle":"Parts that Commonly Replace","blocks":[{"type":"image","src":"assets/images/replacement parts for psp.jpg","alt":"replacement parts for psp"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"PARTS THAT ARE COMMONLY REPLACE"},{"type":"text","text":"Credits to Roy Ginald for the Image"}],"links":[{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK TO MAIN MENU","href":"p53"}]},{"id":"p63","title":"Page1","rawTitle":"Page1","blocks":[{"type":"image","src":"assets/images/mainboard parts of psp 2000.jpg","alt":"mainboard parts of psp 2000"},{"type":"text","text":"PSP MAINPARTS ON BOARD"},{"type":"text","text":"Credits to Roy Ginald for the Image"}],"links":[{"target":"Main Menu","navtype":"jump","label":"BACK TO MAIN MENU","href":"p1"}],"displayTitle":"PSP Mainboard Parts"},{"id":"p64","title":"Page2","rawTitle":"Page2","blocks":[{"type":"image","src":"assets/images/problem1wh0.jpg","alt":"problem1wh0"},{"type":"image","src":"assets/images/wanclickid signature.png","alt":"wanclickid signature"},{"type":"text","text":"Check this parts if the Psp is not TURNING on. WATER damage will also indicates this part that mostly will be affected."}],"links":[{"target":"Psp Fuse and anything MENU","navtype":"jump","label":"BACK TO MAIN MENU","href":"p53"}],"displayTitle":"Parts to check if no power"}],"categories":[{"title":"Start here","pages":["p0","p1"]},{"title":"Disassembly guides","pages":["p2","p3","p24","p25","p26","p27","p28","p29","p30","p31","p32","p33","p34","p35","p36","p37","p38","p4","p5","p6","p7","p8","p9","p10","p11","p12","p13","p14","p15"]},{"title":"Parts & diagrams","pages":["p16","p63","p64","p62"]},{"title":"LED tutorial","pages":["p17","p18","p19","p20","p21","p22","p23"]},{"title":"Repairs","pages":["p39","p40","p41","p42","p43","p44","p45","p46","p47","p48","p49","p50","p51","p52","p53","p54","p55","p56","p57","p58","p59","p60","p61"]}],"archiveGallery":[{"src":"assets/images/15_2.jpg","alt":"15 2"},{"src":"assets/images/1_3.jpg","alt":"1 3"},{"src":"assets/images/fig01.jpg","alt":"fig01"},{"src":"assets/images/fig02.jpg","alt":"fig02"},{"src":"assets/images/fig03.jpg","alt":"fig03"},{"src":"assets/images/PSP Logo black.jpg","alt":"PSP Logo black"},{"src":"assets/images/psp picture.jpg","alt":"psp picture"},{"src":"assets/images/wanclickid signature 2.png","alt":"wanclickid signature 2"},{"src":"assets/images/white.jpg","alt":"white"}]};
+window.PSP_GUIDE_DATA = {
+  "title": "PSP Ultimate Repair Guide V.1",
+  "author": "Wanclickid",
+  "pages": [
+    {
+      "id": "p0",
+      "title": "Psp Repair Guide",
+      "rawTitle": "Psp Repair Guide",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/psp1.jpg",
+          "alt": "psp1"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "www.wanclickidrepublic.com"
+        },
+        {
+          "type": "text",
+          "text": "Created by: Wanclickid"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        },
+        {
+          "type": "text",
+          "text": "Playstation addict"
+        }
+      ],
+      "links": [
+        {
+          "target": null,
+          "navtype": "next",
+          "label": "CLICK HERE",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p1",
+      "title": "Main Menu",
+      "rawTitle": "Main Menu",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/PSP-Console.jpg",
+          "alt": "PSP Console"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Created by Wanclickid"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble guide",
+          "navtype": "jump",
+          "label": "Psp Disassembly",
+          "href": "p2"
+        },
+        {
+          "target": "Psp Partlists",
+          "navtype": "jump",
+          "label": "Psp Partlists",
+          "href": "p16"
+        },
+        {
+          "target": "Page1",
+          "navtype": "jump",
+          "label": "Psp Mainboard Parts",
+          "href": "p63"
+        },
+        {
+          "target": "Psp Led Tutorial",
+          "navtype": "jump",
+          "label": "Psp Led Tutorial",
+          "href": "p17"
+        },
+        {
+          "target": "UMD Not Reading 1",
+          "navtype": "jump",
+          "label": "UMD Not Reading",
+          "href": "p39"
+        },
+        {
+          "target": "Power Switch Replacement 1",
+          "navtype": "jump",
+          "label": "Power Switch Replacement",
+          "href": "p43"
+        },
+        {
+          "target": "Psp Analog Replacement",
+          "navtype": "jump",
+          "label": "Psp Analog Replacement",
+          "href": "p49"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "More Tips in Psp Repair",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Psp Disassemble guide",
+      "rawTitle": "Psp Disassemble guide",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/slim_fat_psp.jpg",
+          "alt": "slim fat psp"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/Playlogo-black.jpg",
+          "alt": "Playlogo black"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Fat Disassemble Guide",
+          "navtype": "jump",
+          "label": "Psp Fat Disassemble Guide",
+          "href": "p3"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide",
+          "navtype": "jump",
+          "label": "Psp Slim Disassemble Guide",
+          "href": "p4"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Psp Fat Disassemble Guide",
+      "rawTitle": "Psp Fat Disassemble Guide",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/1_1.jpg",
+          "alt": "1 1"
+        },
+        {
+          "type": "text",
+          "text": "First thing there is to do is the black top faceplate and casing, If you are only switching out the faceplate and casing then you just unscrew what needs to be unscrewed and move over what needs to be moved. The Locations of the Screws are as shown"
+        },
+        {
+          "type": "text",
+          "text": "Now to include the buttons, Stick, and nub. Take note of how the buttons are positioned in the case so you can place them back in the same way. Then place the rubber pieces over them and make sure you put it in right. the Stick itself is easy to figure out, you remove the nub, just pull it off the top. It's meant to come off. and then you unscrew the two screws that hold it down."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p24"
+        },
+        {
+          "target": "Psp Disassemble guide",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p2"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Psp Slim Disassemble Guide",
+      "rawTitle": "Psp Slim Disassemble Guide",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "DISMATELING A PSP SLIM"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        },
+        {
+          "type": "text",
+          "text": "Tools needed:"
+        },
+        {
+          "type": "text",
+          "text": "1x 0 or 00 Philips Screwdriver"
+        },
+        {
+          "type": "text",
+          "text": "1x small tweezers"
+        },
+        {
+          "type": "text",
+          "text": "1x small flat-head screwdriver"
+        },
+        {
+          "type": "text",
+          "text": "STEP 1: The first thing you will have to do is remove the Warranty Sticker from the Battery compartment, and depending on the placement of the serial number/device information sticker. You will notice that instead of 6 screws on the back of the original PSP, the new Slim & Lite PSP only has 4 screws (indicated by the 4 red dots), but there are also 3 screws along the trim that must be removed as well, one at the bottom, and 2 at the top. Now the Face-plate may be removed."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP1.png",
+          "alt": "STEP1"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p5"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "Psp Slim Disassemble Guide Step 2",
+      "rawTitle": "!Psp Slim Disassemble Guide Step 2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 2: Now you can see the internals of the PSP, unlike the original PSP, the home bar's ribbon cable isn't attached to the power board, instead it is attached underneath the LCD screen. The Home Bar's clips must be released from both ends of it, not unlike the original, then let the home bar to hang as shown."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP2.png",
+          "alt": "STEP2"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p6"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p4"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "title": "Psp Slim Disassemble Guide Step 3",
+      "rawTitle": "!Psp Slim Disassemble Guide Step 3",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 3: To remove the LCD you gently pry the clips on the edges, much like you would for the original PSP."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP3.png",
+          "alt": "STEP3"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 4 & 5",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p7"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p5"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "title": "Psp Slim Disassemble Guide Step 4 & 5",
+      "rawTitle": "%Psp Slim Disassemble Guide Step 4 & 5",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 4: Now, open the ribbon clamps for the LCD screen and Home bar, by flipping up the tabs on the clamps."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP4.png",
+          "alt": "STEP4"
+        },
+        {
+          "type": "text",
+          "text": "STEP 5: Next, remove the metal shielding, then remove the screws that are holding the trigger buttons in place, and remove them."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP5.png",
+          "alt": "STEP5"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 6 & 7",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p8"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p6"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "title": "Psp Slim Disassemble Guide Step 6 & 7",
+      "rawTitle": "%Psp Slim Disassemble Guide Step 6 & 7",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 6: Open the Clamp of the D-Pad? ribbon cable, and slip your tweezers underneath it to unseat the cable. You will also have to remove the sticky backed trigger button pad from its shelf on the back-plate, and open the Memory Stick door completely, before you can remove the D-Pad? assembly."
+        },
+        {
+          "type": "text",
+          "text": "STEP 7: Remove the screw holding the power board and open the ribbon cable clamp, then remove the power board."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP6.png",
+          "alt": "STEP6"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP7.png",
+          "alt": "STEP7"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 8",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p9"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 4 & 5",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p7"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "title": "Psp Slim Disassemble Guide Step 8",
+      "rawTitle": "!Psp Slim Disassemble Guide Step 8",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 8: Now remove the screw that is holding the charge plug and disconnect the charge plug terminal. The charge plug is held in by both the screw and plastic clips so gently pry them open until you can easily remove the charge plug. You can also remove the right side speaker by gently prying it out of its clips."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP8.png",
+          "alt": "STEP8"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 9",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p10"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 6 & 7",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p8"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "title": "Psp Slim Disassemble Guide Step 9",
+      "rawTitle": "!Psp Slim Disassemble Guide Step 9",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 9: Now, open the ribbon cable clamp for the face buttons (Square triangle, etc.) and remover the sticky backed trigger button pad from its shelf on the back-plate, and remove the face button FPC (Flexible Printed Circuit)."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP9.png",
+          "alt": "STEP9"
+        },
+        {
+          "type": "text",
+          "text": "STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."
+        },
+        {
+          "type": "text",
+          "text": "Once again remove the metal shielding."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 10",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p11"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 8",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p9"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "title": "Psp Slim Disassemble Guide Step 10",
+      "rawTitle": "\"Psp Slim Disassemble Guide Step 10",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."
+        },
+        {
+          "type": "text",
+          "text": "Once again remove the metal shielding."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP10.png",
+          "alt": "STEP10"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 11 & 12",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p12"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 9",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p10"
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "title": "Psp Slim Disassemble Guide Step 11 & 12",
+      "rawTitle": "'Psp Slim Disassemble Guide Step 11 & 12",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 11: Now, remove the screw holding the analogue nub in place and remove it."
+        },
+        {
+          "type": "text",
+          "text": "STEP 12: Underneath you will see the daughter board for the AV port, remove the screw holding it in and take out the board, remembering to lift from the top and slide the port out."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP11.png",
+          "alt": "STEP11"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP12.png",
+          "alt": "STEP12"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 13",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p13"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 10",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p11"
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "title": "Psp Slim Disassemble Guide Step 13",
+      "rawTitle": "\"Psp Slim Disassemble Guide Step 13",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 13: Now the really fun part, first pry the spring from the UMD door hinge, next to remove the UMD door, the best way I have found is to slide a small flat-head screw-driver into the opening from the front on the right side, and gently prying the hinge out, now there may be a better way to do this but I wasn't willing to try too many ways in the fear of scratching my PSP which was disassembled in less than hour from receiving it. Once the first hinge is removed you can easily remove the second hinge, but the door isn't off yet. You have to remove the H frame hinge from the UMD door, to do this slide the H frame to the bottom of its tracks on the door, and lateral to the door, slightly squeeze above the pins and they will be free."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP13.png",
+          "alt": "STEP13"
+        },
+        {
+          "type": "text",
+          "text": "Now remove the 4 screws from the UMD laser drive and remove it,"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 14",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p14"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 11 & 12",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p12"
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "title": "Psp Slim Disassemble Guide Step 14",
+      "rawTitle": "\"Psp Slim Disassemble Guide Step 14",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 14: To get the H frame off you will have to either remove the small sticky-backed rubber blocks from the sides of its hinges with your tweezers, or slide a small flat-head screwdriver in between to allow enough space to remove the hinges."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP14.png",
+          "alt": "STEP14"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 15",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p15"
+        },
+        {
+          "target": "Psp Slim Disassemble Guide Step 13",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p13"
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "title": "Psp Slim Disassemble Guide Step 15",
+      "rawTitle": "\"Psp Slim Disassemble Guide Step 15",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "STEP 15: Now all that's left is to remove the sticky-backed WiFi? antenna from the back-plate and you are done, you now have a completely disassembled PSP Slim & Lite."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/STEP15.png",
+          "alt": "STEP15"
+        },
+        {
+          "type": "text",
+          "text": "And now your done. You've done it with your own hand."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/Playlogo-black.jpg",
+          "alt": "Playlogo black"
+        },
+        {
+          "type": "text",
+          "text": "www.wanclickidrepublic.com"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Slim Disassemble Guide Step 14",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p14"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "title": "Psp Partlists",
+      "rawTitle": "Psp Partlists",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Partslist.jpg",
+          "alt": "Partslist"
+        },
+        {
+          "type": "text",
+          "text": "1. Mother Board"
+        },
+        {
+          "type": "text",
+          "text": "2. WiFi Daughterboard"
+        },
+        {
+          "type": "text",
+          "text": "3. Wifi Antena"
+        },
+        {
+          "type": "text",
+          "text": "4. D-Pad"
+        },
+        {
+          "type": "text",
+          "text": "5. Power-ABXY Board"
+        },
+        {
+          "type": "text",
+          "text": "6. PBA Flexcable"
+        },
+        {
+          "type": "text",
+          "text": "7. Right Trigger contact"
+        },
+        {
+          "type": "text",
+          "text": "8. Power Plug"
+        },
+        {
+          "type": "text",
+          "text": "9. Right Speaker"
+        },
+        {
+          "type": "text",
+          "text": "10. Left Speaker"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/Playlogo-black.jpg",
+          "alt": "Playlogo black"
+        }
+      ],
+      "links": [
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "title": "Psp Led Tutorial",
+      "rawTitle": "Psp Led Tutorial",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/1.jpg",
+          "alt": "1"
+        },
+        {
+          "type": "text",
+          "text": "This is definitely a difficult mod, the pieces are small and the spaces are tight proceed at your own risk.   Expect to damage multiple 0603 LED's so have a corresponding # LED's extra depending on your soldering skill (making this your first soldering project is almost certain to end in disappointment).  That being said we do have a kit available"
+        },
+        {
+          "type": "text",
+          "text": "Tools-"
+        },
+        {
+          "type": "text",
+          "text": "000 Phillips Screw Driver"
+        },
+        {
+          "type": "text",
+          "text": "Low wattage (15-20) Quality Solder Iron or variable temperature Solder Station."
+        },
+        {
+          "type": "text",
+          "text": "X-Acto or other blade for stripping/scratching off the insulation on the wire"
+        },
+        {
+          "type": "text",
+          "text": "Small Tweezers"
+        },
+        {
+          "type": "text",
+          "text": "5/64 Drill bit and drill"
+        },
+        {
+          "type": "text",
+          "text": "Supplies-"
+        },
+        {
+          "type": "text",
+          "text": "AWG Magnet Wire (enamel coated) (NOT 30AWG Kynar)"
+        },
+        {
+          "type": "text",
+          "text": "0603 SMD LED's"
+        },
+        {
+          "type": "text",
+          "text": "10 Ohm Resistor for 4 blue"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        },
+        {
+          "type": "text",
+          "text": "www.wanclickidrepublic.com"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 1",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p18"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "title": "Psp Led Tutorial 1",
+      "rawTitle": "Psp Led Tutorial 1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "I find it is best to find a spring loaded tweezers.  This kind wants to close on its own when you squeeze it opens.  We sell a set that contains the tweezers that I am using in these photos."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/2.jpg",
+          "alt": "2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/4.jpg",
+          "alt": "4"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/5.jpg",
+          "alt": "5"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/3.jpg",
+          "alt": "3"
+        },
+        {
+          "type": "text",
+          "text": "First you will need to scrape away some of the red enamel coating to reveal the copper, then tin with fresh solder.  Tin the LED and then join the two with a breif application of heat."
+        },
+        {
+          "type": "text",
+          "text": "Once completed it looks something like this.  Notice the green marking on the bottom of the LED, think of it as an \"arrow\" that always points toward the cathode or ground side of the LED.  In this photo the cathode would be on the left wire. (once together the whole contraption becomes very delicate, simply bending the wires can cause the LED to break so do as little bending of the wire close to the LED as possible, twisting the wires together causes the wire to rotate and this will often break the LED as well so try to have your wires basically how you want them prior to soldering)"
+        },
+        {
+          "type": "text",
+          "text": "Prepare the trigger by drilling a small hole.  I used a 5/64 drill bit.  Try to use the plastic tabs the protrude from the sides as a general guide, you want to be parallel with them and go in about as deep as they go"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p19"
+        },
+        {
+          "target": "Psp Led Tutorial",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p17"
+        }
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "Psp Led Tutorial 2",
+      "rawTitle": "Psp Led Tutorial 2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/6.jpg",
+          "alt": "6"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/7.jpg",
+          "alt": "7"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/8.jpg",
+          "alt": "8"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/9.jpg",
+          "alt": "9"
+        },
+        {
+          "type": "text",
+          "text": "Another angle of the completed drilled hole."
+        },
+        {
+          "type": "text",
+          "text": "Put a little hot glue on the led and over the hole and insert the LED as deep as it goes with the bright side facing the long side of the trigger."
+        },
+        {
+          "type": "text",
+          "text": "Test it out"
+        },
+        {
+          "type": "text",
+          "text": "It should look something like this when installed."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p20"
+        },
+        {
+          "target": "Psp Led Tutorial 1",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p18"
+        }
+      ]
+    },
+    {
+      "id": "p20",
+      "title": "Psp Led Tutorial 3",
+      "rawTitle": "Psp Led Tutorial 3",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/10.jpg",
+          "alt": "10"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/11.jpg",
+          "alt": "11"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/12.jpg",
+          "alt": "12"
+        },
+        {
+          "type": "text",
+          "text": "We use the same method to attach the other LED's as we did with the trigger button LED's.  For the D-Pad it is necessary to cut a little notch for the wires.  A little hotglue keeps it in place"
+        },
+        {
+          "type": "text",
+          "text": "To keep the D-Pad working freely it is important to bore a couple holes so the wires do not need to travel under the rubber pad for far"
+        },
+        {
+          "type": "text",
+          "text": "To balance things out we added another LED on the right side in the middle of the ABXY buttons (aka trinagle square etc) just stick it in there and shoot some hot glue down from above"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p21"
+        },
+        {
+          "target": "Psp Led Tutorial 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p19"
+        }
+      ]
+    },
+    {
+      "id": "p21",
+      "title": "Psp Led Tutorial 4",
+      "rawTitle": "Psp Led Tutorial 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/13.jpg",
+          "alt": "13"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/14.jpg",
+          "alt": "14"
+        },
+        {
+          "type": "text",
+          "text": "We had to cut the circle in the middle of the rubber pad so it would show through properly"
+        },
+        {
+          "type": "text",
+          "text": "Updates: It appears possible to skip the transistor and just wire it in direct.  I definitely like this idea from an ease of solder-ability standpoint.  And Hey if it works it works.  view/provide Survey Feedback on the reliability of this method"
+        },
+        {
+          "type": "text",
+          "text": "Also see our Forum Discussion many have reported success eliminating the transistor and simply wiring a resistor and the LED's between the power and ground for the onboard LED.  I made an assumption that the circuit was built with just enough to power one LED, apparently the circuit is made well enough that nothing burns out."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 5",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p22"
+        },
+        {
+          "target": "Psp Led Tutorial 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p20"
+        }
+      ]
+    },
+    {
+      "id": "p22",
+      "title": "Psp Led Tutorial 5",
+      "rawTitle": "Psp Led Tutorial 5",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/15.jpg",
+          "alt": "15"
+        },
+        {
+          "type": "text",
+          "text": "Run wires from the positive point for the power led to a 10 Ohm resistor, then into all the positive legs of the LED's.  Then out from all the negative LED legs to the ground point on the ABXY printed circuit board."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/PSN_logo.png",
+          "alt": "PSN logo"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 6",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p23"
+        },
+        {
+          "target": "Psp Led Tutorial 4",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p21"
+        }
+      ]
+    },
+    {
+      "id": "p23",
+      "title": "Psp Led Tutorial 6",
+      "rawTitle": "Psp Led Tutorial 6",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/16.jpg",
+          "alt": "16"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Getting the thing to close properly is the tough part, this is a photo of the difficult part, it turns out you are better off if you run the wires higher rather than lower, keep the wires as short as possible to help them stay in place."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/17.jpg",
+          "alt": "17"
+        },
+        {
+          "type": "text",
+          "text": "As promised when the yellow LED is on the blue ones are off.   I will probably be opening it back up to do some re routing, every button is working but the D pad feels a bit funky and the home button is kind of tight due to my placement of wires coming too close to the buttons."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Led Tutorial 5",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p22"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p24",
+      "title": "Psp Disassemble Guide 2",
+      "rawTitle": "Psp Disassemble Guide 2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Here is what it should look like when you transfer it to the Clear case"
+        },
+        {
+          "type": "text",
+          "text": ". Remember that the sides of the case are at an angle. If you can't get it completely screwed down you are probably trying to put it straight on instead of at an angle. Once you are done with this then you just put it back on and make sure you snap it back at all the right places, then screw it down."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/2_1.jpg",
+          "alt": "2 1"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p25"
+        },
+        {
+          "target": "Psp Fat Disassemble Guide",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p3"
+        }
+      ]
+    },
+    {
+      "id": "p25",
+      "title": "Psp Disassemble Guide 3",
+      "rawTitle": "Psp Disassemble Guide 3",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "If you have to remove it all then I do it like this.."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/3_1.jpg",
+          "alt": "3 1"
+        },
+        {
+          "type": "text",
+          "text": "First is the home bar. It's attached by a little nub on the left side of the LCD case. You take a small flathead screwdriver and pry up just a bit on the bottom of that nub. The left side of it comes off and you can remove the Home Bar from the LCD. Here is the location of the Nub Point."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p26"
+        },
+        {
+          "target": "Psp Disassemble Guide 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p24"
+        }
+      ]
+    },
+    {
+      "id": "p26",
+      "title": "Psp Disassemble Guide 4",
+      "rawTitle": "Psp Disassemble Guide 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/4_1.jpg",
+          "alt": "4 1"
+        },
+        {
+          "type": "text",
+          "text": "is attached to the board by a lever system. In other words, there is a flap like tab that holds the ribbon in. You have to flip the tab up (very carefully) and then pull the ribbon out. If the ribbon isn't coming try flipping the tab further up. If the tab is up completely then the ribbon moves with ease. Sometimes unseating itself in the process. Here is the Location of the Ribbon Tab.."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 5",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p27"
+        },
+        {
+          "target": "Psp Disassemble Guide 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p25"
+        }
+      ]
+    },
+    {
+      "id": "p27",
+      "title": "Psp Disassemble Guide 5",
+      "rawTitle": "Psp Disassemble Guide 5",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/5_1.jpg",
+          "alt": "5 1"
+        },
+        {
+          "type": "text",
+          "text": "Once this is done you will need to remove the LCD from the LCD Cage, there are two latches on both sides of the LCD Case itself. They are under the case edge. If you pry a small flathead in between the screen and the LCD Case keep the screwdriver in there and put your finger under the LCD Screen and push up. It should come right out (BTW don't feel bad if you can't do this easily, It took me two hours to figure out this trick). Here are the Locations of the LCD Latches.. Just look at it and you will see them.."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 6",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p28"
+        },
+        {
+          "target": "Psp Disassemble Guide 4",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p26"
+        }
+      ]
+    },
+    {
+      "id": "p28",
+      "title": "Psp Disassemble Guide 6",
+      "rawTitle": "Psp Disassemble Guide 6",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/6_1.jpg",
+          "alt": "6 1"
+        },
+        {
+          "type": "text",
+          "text": "After you get the left side up, the right side is easy but don't pull the screen up too far. It is attached with two ribbons There is a tiny one at the left and a bigger one. Both are held down by the same lever system. A small tab that you flip up and remove the ribbons. The tiny lever is very delicate so use the utmost of care flipping it up. The biggest one is cake, just flip up the tab and remove. These two tabs are attached to the main board so do not try to remove any screws before you remove the LCD screen. I do not have a picture of this being done so I will show you where on the Mobo they are. The Small Tab flips Down, and the Bigger one Flips up"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 7",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p29"
+        },
+        {
+          "target": "Psp Disassemble Guide 5",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p27"
+        }
+      ]
+    },
+    {
+      "id": "p29",
+      "title": "Psp Disassemble Guide 7",
+      "rawTitle": "Psp Disassemble Guide 7",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/7_1.jpg",
+          "alt": "7 1"
+        },
+        {
+          "type": "text",
+          "text": "After you remove the LCD screen you will see the LCD cage under it. There are a number of screws you need to remove"
+        },
+        {
+          "type": "text",
+          "text": ". That will allow you to remove the LCD cage once you open the UMD door. The UMD door is held in partially by the LCD cage screw, so you should open the UMD door to remove the cage. It should be easy to take out but you may need to kinda pull it over to the right to remove the cage."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 8",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p30"
+        },
+        {
+          "target": "Psp Disassemble Guide 6",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p28"
+        }
+      ]
+    },
+    {
+      "id": "p30",
+      "title": "Psp Disassemble Guide 8",
+      "rawTitle": "Psp Disassemble Guide 8",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/8_1.jpg",
+          "alt": "8 1"
+        },
+        {
+          "type": "text",
+          "text": "under that is your motherboard and your Dpad and your ABXY Power board. You remove the screw holding your DPAD down, and then remove the ribbon the same as you have already.. Dpad Screw is Here"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 9",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p31"
+        },
+        {
+          "target": "Psp Disassemble Guide 7",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p29"
+        }
+      ]
+    },
+    {
+      "id": "p31",
+      "title": "Psp Disassemble Guide 9",
+      "rawTitle": "Psp Disassemble Guide 9",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/9_1.jpg",
+          "alt": "9 1"
+        },
+        {
+          "type": "text",
+          "text": "Then you remove the ABXY Power switch but carefully making sure that you get the little black nub out of the power switch on the outside. Note: when you remove that always take special care to know where that black nub is for the switch It's the easiest thing to break if you aren't careful When you reinstall the power board always make sure that nub is in the outer area of the switch correctly Before you push the board into place.told me about how he took all day doing a huge LED mod and everything thing worked. Broke the switch off reinstalling it. Made the whole thing useless. I've broken the switch once. And I will not do it again."
+        },
+        {
+          "type": "text",
+          "text": "Gently stick a small flathead screwdriver under it and slightly pull the screwdriver up and the board comes up rather easily. It has a Ribbon in the back attached to the back of the power switch and one on the Motherboard itself, both are tabbed with the levers. Flip the tab up and remove ribbon from the Motherboard and the ribbon from the power switch."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 10",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p32"
+        },
+        {
+          "target": "Psp Disassemble Guide 8",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p30"
+        }
+      ]
+    },
+    {
+      "id": "p32",
+      "title": "Psp Disassemble Guide 10",
+      "rawTitle": "Psp Disassemble Guide 10",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "After the power board is off you can concentrate on some other things, like the AC adapter plug. you just carefully remove the Male plug from the female port on the motherboard. And then unscrew the yellow AC plug port and remove it.."
+        },
+        {
+          "type": "text",
+          "text": "There is also a Male Female port that holds the Motherboard into the Wireless card. (that's the long wire you see taped to the whole Motherboard). Note there are two other things that you would need to remove first. One is the two speakers. they are the white tiny plugs on the bottom of the Motherboard. They are easy to remove if you have a tiny set of tweezers. Once you remove these, you would want to use a small flathead screwdriver to pry up slightly on one side, and then use your tweezers to gently grab the speakers and pull them out of the case. They aren't soldered, so it's easy once you get one side up. Make sure you set these chips or components onto a surface that won't get Static electricity. like a table or"
+        },
+        {
+          "type": "text",
+          "text": "something."
+        },
+        {
+          "type": "text",
+          "text": "The next thing you need to remove is the ribbon for the UMD Laser. This was a bit tricky to figure out because of the type of latch it is. There are two tabs on both sides of the ribbon, if you slide the tabs away from the port you release the pressure on the ribbon and it can be removed. You just slide one tab at a time to the right and it will eventually be released. You slide out those tabs a bit and the ribbon can be removed. It's still attached to the Laser mounting so ignore it for now. There is another ribbon for the other piece of the UMD Drive. It's at the very bottom of the Motherboard. Just flip up the tab and remove the ribbon."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/10_1.jpg",
+          "alt": "10 1"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 11",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p33"
+        },
+        {
+          "target": "Psp Disassemble Guide 9",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p31"
+        }
+      ]
+    },
+    {
+      "id": "p33",
+      "title": "Psp Disassemble Guide 11",
+      "rawTitle": "Psp Disassemble Guide 11",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/11_1.jpg",
+          "alt": "11 1"
+        },
+        {
+          "type": "text",
+          "text": "Now you need to remove the antennae from the right side of the psp. It's easy you just ease the antennae piece up from the black plastic and then disconnect the black tape that holds the cord down so you have free access to the motherboard. Here is a Rundown of everything you would be removing and where it is.."
+        },
+        {
+          "type": "text",
+          "text": "Now you can carefully remove the Motherboard by pulling up the top left hand side which detaches the male/female port that attaches the MEMcard reader and the bottom of the Motherboard. Then you carefully tilt the bottom of the Motherboard up so you can slide the USB port out of the top of the case and remove the motherboard. You will feel it disconnect. It doesn't take much force. It's like a plug kinda. It's just on the bottom of the motherboard. Now you should have the Motherboard out. The antennae will still be attached to the Wifi card and MEM stick reader. Just carefully set that down and then get to work on the small metal cage that covers it up."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 12",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p34"
+        },
+        {
+          "target": "Psp Disassemble Guide 10",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p32"
+        }
+      ]
+    },
+    {
+      "id": "p34",
+      "title": "Psp Disassemble Guide 12",
+      "rawTitle": "Psp Disassemble Guide 12",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/12_1.jpg",
+          "alt": "12 1"
+        },
+        {
+          "type": "text",
+          "text": "here are assorted screws that hold it down."
+        },
+        {
+          "type": "text",
+          "text": "After you get it up you should notice that there is one small black screw to the right that doesn't seem to hold anything. It holds the UMD Door in place. Remove it. Now if you played your cards right you should be able to use a small exacto-knife from the back of the case with the UMD door open and place it at the base of the umd door inside and pry it carefully to the inside. Think *CD Case Backwards*. You know how the CD case holds in those little holes on the case to keep the case on it? Image that with the pegs backwards. that's how the door holds on. Once you get one side out you carefully wiggle out the other side and it will come right out."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 13",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p35"
+        },
+        {
+          "target": "Psp Disassemble Guide 11",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p33"
+        }
+      ]
+    },
+    {
+      "id": "p35",
+      "title": "Psp Disassemble Guide 13",
+      "rawTitle": "Psp Disassemble Guide 13",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/13_1.jpg",
+          "alt": "13 1"
+        },
+        {
+          "type": "text",
+          "text": "DHere is a Diagram of where to do this. I used a butter knife.."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 14",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p36"
+        },
+        {
+          "target": "Psp Disassemble Guide 12",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p34"
+        }
+      ]
+    },
+    {
+      "id": "p36",
+      "title": "Psp Disassemble Guide 14",
+      "rawTitle": "Psp Disassemble Guide 14",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/14_1.jpg",
+          "alt": "14 1"
+        },
+        {
+          "type": "text",
+          "text": "Now you need to remove the UMD Drive. It's the whole drive cage in the back. You remove four screws at each corner and it comes out. Then you need to remove that spring on the right side that puts the spring in the UMD opening. While you are doing that make careful note of how it is placed in there, cause you need to put it back in the same"
+        },
+        {
+          "type": "text",
+          "text": "way. Here is the Location of the screws and Spring.."
+        },
+        {
+          "type": "text",
+          "text": "After that is out you can remove the other things. There is a ribbon for your R button that is just attached by some adhesive. Just peel it off then attach it to the new case by restricting it like a sticker. Be careful not to touch the bottom connectors though. the gold part."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 15",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p37"
+        },
+        {
+          "target": "Psp Disassemble Guide 13",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p35"
+        }
+      ]
+    },
+    {
+      "id": "p37",
+      "title": "Psp Disassemble Guide 15",
+      "rawTitle": "Psp Disassemble Guide 15",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/15_1.jpg",
+          "alt": "15 1"
+        },
+        {
+          "type": "text",
+          "text": "Now there is a small metal piece below it that you can just take out. And your PSP is down to the MEM Stick Door and the power switch."
+        },
+        {
+          "type": "text",
+          "text": "Although if you want to trade the grey frames there is a bit more work)"
+        },
+        {
+          "type": "text",
+          "text": "For the MEM stick door you need to remove the screws holding it down and take off the top piece. Make sure to note how it is put in there"
+        },
+        {
+          "type": "text",
+          "text": "Once it is loose you remove the mem stick door from the PSP. Now you have to get the Rubber piece off of it so you can install it into your new case. You need a small pair of computer pliers and an exacto knife. The rubbery plastic will separate from the black mem stick door, There are five small black pins holding it on. If you look at the clear one (Coolmods) you will see those pins, The Sony Black OEM case has larger ends on the"
+        },
+        {
+          "type": "text",
+          "text": "Now the power switch. The power switch is made of two parts. One part is like a hook thing on the switch part. And that goes through a hole on the yellow part that triggers the switch. You take a small screwdriver and push down the grey part that goes through the yellow trigger and the grey switch will come out. It's not rocket surgery. The yellow piece just comes out (I'm not sure if this is the same for All PSP Models. My PSP was a newer model and this may be different for earlier models). Your PSP should be bare now aside from the stock frames."
+        },
+        {
+          "type": "text",
+          "text": "Be sure you note that the clear case isn't going to fit like a glove. You may need to use more force to get some things to fit but be careful. If you find it won't fit, try sanding the open port on the case to try and make a better fit. ( Had a particularly interesting time with my Wifi Card Fitting right.. I got it in there eventually though."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 16",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p38"
+        },
+        {
+          "target": "Psp Disassemble Guide 14",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p36"
+        }
+      ]
+    },
+    {
+      "id": "p38",
+      "title": "Psp Disassemble Guide 16",
+      "rawTitle": "Psp Disassemble Guide 16",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/16_1.jpg",
+          "alt": "16 1"
+        },
+        {
+          "type": "text",
+          "text": "One thing that many Pspmodders have been talking about is the UMD Drive Gears stopping the PSP from loading UMDs. If this doesn't happen then don't worry about it. If you can hear the UMD gears turning, then you have this problem. The easiest way to solve this is to dremel off the plastic piece that covers up the UMD Gears. but you risk getting you speaker wires. The best way I found to solve this is to take a Dremel with a round head and just round out whichever side of the round area on the bottom of the plastic piece doesn't get enough clearance to let the gear move. (If you don't have a dremel, then a sharp knife should do.. Just be careful and take little bits at a time.) Just look at your Clear case and where the gears go and I'm sure you will see that they would get slowed down. Use your best judgment and take little bits at a time till you get it right! (T3KN1K4L"
+        },
+        {
+          "type": "text",
+          "text": "s PSP is heavily Dremeled but it kept its shape enough."
+        },
+        {
+          "type": "text",
+          "text": "Also be wary of the Speaker wire from right speaker. They can get caught in the gears and slow it down too. Just check the back of the LCD Cage for that rubber spacer. It's used to prevent such an occurrence. Make sure that the wires are below that and you will be fine!"
+        },
+        {
+          "type": "text",
+          "text": "for some reason while your case is open it works. Once you screw it down is when this occurs)"
+        },
+        {
+          "type": "text",
+          "text": "If Coolmods has fixed this problem with the new cases.. Then never mind."
+        },
+        {
+          "type": "text",
+          "text": "Once your case is stripped you have some options.. Some coolmods cases come with frames (the outer grey part with the switches). Some do not. If you like the look of your original frames then I included how to remove them in this Tut."
+        },
+        {
+          "type": "text",
+          "text": "You will see little tabs on the inside of the frames that hold the frame on the case itself. This is depicted in my pics. First you need to remove the switches. You already got one of them off! Good for you!"
+        },
+        {
+          "type": "text",
+          "text": "The second is the Wifi Switch. It's basic. just see how it goes in there. Pretty much the same as the power switch, and remove it. then you can use"
+        },
+        {
+          "type": "text",
+          "text": "the tabs to slowly slide the frame off towards the top of the case. It comes off with a little pressure but don't use too much. They are fragile. The side frame will come off with ease too. It's the top that's the ticker."
+        },
+        {
+          "type": "text",
+          "text": "If you got your IR Sensor off with ease then good for you! Sometimes it just pops out! (I know mine didn't) If you didn't then just apply some slight pressure with a small flathead screwdriver to the back of the IR Sensor and it will pop out. The open button is just wedged into the frame. Just pull it out at an angle and it will come out rather easily."
+        },
+        {
+          "type": "text",
+          "text": "Then you just carefully, slide the frame towards you. You will notice that it stops and if you look at it you will see. two little tabs on both sides of the top frame that hold it on. Pull the tabs out of the slots and slide it back toward you. It should come off."
+        },
+        {
+          "type": "text",
+          "text": "Now you replay this all in reverse! Okay, now that everything is all taken apart I wanted to voice out something that anyone should watch for.. There is a tiny black tab on the back of the Motherboard that is depressed when the UMD door is shut with a UMD in it. This is very delicate and goes through a small opening in the in back of the UMD Laser Assembly that lets this tiny nub through so it can get pressed by the UMD Disk. Take extra care to make sure that tab goes into the UMD Laser Assembly correctly, If you break it off. (And it is easy to do) Then your UMD Drive won't turn on. For best results I recommend using this Tut with the new Virtual PSP Modder. Make sure to take care of your screws and remember where they all go! This shouldn't give you too many problems. If you find that you can't use all the screws, just use the ones you can and make sure everything is screwed down as best as possible. You don't have to use all of them. Just as many as you can."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Disassemble Guide 15",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p37"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p39",
+      "title": "UMD Not Reading 1",
+      "rawTitle": "UMD Not Reading 1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "I have seen many PSP's stop reading UMD discs and for the most part they are repairable with the least amount of opening your PSP."
+        },
+        {
+          "type": "text",
+          "text": "First we will do some trouble shooting with what might be wrong with your PSP unit."
+        },
+        {
+          "type": "text",
+          "text": "About 35% of the time I find that there is something stuck in the UMD gear. It is different every time, sometimes its a piece of dust, plastic, soda, and even hair."
+        },
+        {
+          "type": "text",
+          "text": "Another 25% is the Disc Spinning motor. This will not let The disc in the UMD spin."
+        },
+        {
+          "type": "text",
+          "text": "About 20% is the Laser motor, this might be hard to spot since it could be something in the gears."
+        },
+        {
+          "type": "text",
+          "text": "About 10% is the actual laser itself. It will not focus the laser to read the UMD disc."
+        },
+        {
+          "type": "text",
+          "text": "The Last 10% is the Motherboard. This is the worst outcome, since there is very little what we can do but replace the motherboard."
+        },
+        {
+          "type": "text",
+          "text": "So first what we need to do is find out what is actually wrong with your PSP."
+        },
+        {
+          "type": "text",
+          "text": "With your PSP in hand."
+        },
+        {
+          "type": "text",
+          "text": "Turn on your PSP and remove any UMD that might be in there now."
+        },
+        {
+          "type": "text",
+          "text": "If you open up the UMD door and look down inside you will see the Laser assembly."
+        },
+        {
+          "type": "text",
+          "text": "If you look to the left there is a black tab that sticks up, this tells the PSP that there is a UMD in the drive."
+        },
+        {
+          "type": "text",
+          "text": "UMD NOT READING"
+        }
+      ],
+      "links": [
+        {
+          "target": "UMD Not Reading 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p40"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p40",
+      "title": "UMD Not Reading 2",
+      "rawTitle": "UMD Not Reading 2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "CAUTION: DO NOT STARE DIRECTLY AT THE LASER."
+        },
+        {
+          "type": "text",
+          "text": "If you press this down with a small probe, you should see the disc motor spin and the laser light up red"
+        },
+        {
+          "type": "text",
+          "text": "If the Motor is not spinning.  is it moving slightly? Maybe a little twitch?"
+        },
+        {
+          "type": "text",
+          "text": "I would lean more towards the bad motor problem BUT would not say for sure, I would recommend that you take the parts out and see if there is another problem also."
+        },
+        {
+          "type": "text",
+          "text": "If the laser is not lighting up then it could be the laser, I would try and check the cables to the PSP and see if there is a bad connection."
+        },
+        {
+          "type": "text",
+          "text": "If both are running well then lets put a disc in and get your ear up close so you can hear what is going on in there."
+        },
+        {
+          "type": "text",
+          "text": "On a working PSP you will hear the disc start to spin up, then you can hear the laser start to twitch, followed by the laser motor moving the laser down the rails."
+        },
+        {
+          "type": "text",
+          "text": "Can you hear the disc spin up? If not I would take the disc out again and press the switch with your probe again.  if the disc motor is spinning again, look around to see if the metal housing is obstructing the disc when you put it in.. there could be to much pressure for the disc to spin freely."
+        },
+        {
+          "type": "text",
+          "text": "Can you hear the Laser focus? This might be hard to hear it will sound like a little tick. If you cant hear it tick I would move on and inspect this internally  later."
+        },
+        {
+          "type": "text",
+          "text": "Can you hear the Laser move down the rail? This will be a smooth sound of the gears, it should not be a really clicky sound."
+        },
+        {
+          "type": "text",
+          "text": "If you can't hear it move down the track OR it is very clicky follow this."
+        }
+      ],
+      "links": [
+        {
+          "target": "UMD Not Reading 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p41"
+        },
+        {
+          "target": "UMD Not Reading 1",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p39"
+        }
+      ]
+    },
+    {
+      "id": "p41",
+      "title": "UMD Not Reading 3",
+      "rawTitle": "UMD Not Reading 3",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/UmdGear.jpg",
+          "alt": "UmdGear"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "It would look like this if your UMD door was off."
+        },
+        {
+          "type": "text",
+          "text": "You should open the UMD door and carefully manually move the laser to the right side of the assembly."
+        },
+        {
+          "type": "text",
+          "text": "Use a sharp THIN probe to manually move the WHITE gear under the metal housing. It is quite hard to see it in the photos so I put a red star around it."
+        },
+        {
+          "type": "text",
+          "text": "I usually try and scrape the gears themselves to make sure there is no gunk or debris in the gear."
+        }
+      ],
+      "links": [
+        {
+          "target": "UMD Not Reading 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p42"
+        },
+        {
+          "target": "UMD Not Reading 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p40"
+        }
+      ]
+    },
+    {
+      "id": "p42",
+      "title": "UMD Not Reading 4",
+      "rawTitle": "UMD Not Reading 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/psp slim-fat.jpg",
+          "alt": "psp slim fat"
+        },
+        {
+          "type": "text",
+          "text": "After this try and see if it is reading UMD again."
+        },
+        {
+          "type": "text",
+          "text": "This fixes it about 35% of the time."
+        },
+        {
+          "type": "text",
+          "text": "If none of this is working, it is time to open your PSP unit Or send it in for repair."
+        },
+        {
+          "type": "text",
+          "text": "If you know what's wrong you can replace the problem here"
+        },
+        {
+          "type": "text",
+          "text": "Replace UMD Assembly"
+        },
+        {
+          "type": "text",
+          "text": "Replace UMD Disc Motor"
+        },
+        {
+          "type": "text",
+          "text": "Replace UMD Laser Motor"
+        },
+        {
+          "type": "text",
+          "text": "Replace PSP Motherboard"
+        }
+      ],
+      "links": [
+        {
+          "target": "UMD Not Reading 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p41"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p43",
+      "title": "Power Switch Replacement 1",
+      "rawTitle": "Power Switch Replacement 1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "POWER SWITCH REPLACEMENT"
+        },
+        {
+          "type": "text",
+          "text": "Repairing your PSP Power Switch can be repaired fairly quickly."
+        },
+        {
+          "type": "text",
+          "text": "There are two methods for fixing it, one is purchase a new switch or a whole new Powerboard."
+        },
+        {
+          "type": "text",
+          "text": "I have seen many sites on the internet where they are selling the power switch and not telling you how to put them in."
+        },
+        {
+          "type": "text",
+          "text": "The most cost effective is to replace the switch, It does require soldering and some other tools."
+        },
+        {
+          "type": "text",
+          "text": "You can also replace the whole Power Button and ABXY board. This is usually unnecessary unless one of your buttons or LED is not working also."
+        },
+        {
+          "type": "text",
+          "text": "Here we are going to show you how to solder on a new switch to your board."
+        },
+        {
+          "type": "text",
+          "text": "CAUTION!"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/lifted psp switch.jpg",
+          "alt": "lifted psp switch"
+        },
+        {
+          "type": "text",
+          "text": "Use Extreme Caution when removing the old switch, The solder pads on the board can be lifted off VERY easily."
+        },
+        {
+          "type": "text",
+          "text": "If you pry on the wrong part you might not be able to repair this part, and you will need to purchase a new Power Board."
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p44"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p44",
+      "title": "Power Switch Replacement 2",
+      "rawTitle": "Power Switch Replacement 2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/NewSwich.jpg",
+          "alt": "NewSwich"
+        },
+        {
+          "type": "text",
+          "text": "Tools,"
+        },
+        {
+          "type": "text",
+          "text": "1. Tools for opening your PSP"
+        },
+        {
+          "type": "text",
+          "text": "2. Diagonal wire snips"
+        },
+        {
+          "type": "text",
+          "text": "3. Soldering Iron and solder."
+        },
+        {
+          "type": "text",
+          "text": "4. New switch"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/1_2.jpg",
+          "alt": "1 2"
+        },
+        {
+          "type": "text",
+          "text": "Once you get your PBA out of your PSP, remove all of the cables so that it is just like the board in the photo."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/2_2.jpg",
+          "alt": "2 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Take your small flathead screwdriver OR a Sharp knife."
+        },
+        {
+          "type": "text",
+          "text": "Pry the clip open that is holding the metal plate on the switch."
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p45"
+        },
+        {
+          "target": "Power Switch Replacement 1",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p43"
+        }
+      ]
+    },
+    {
+      "id": "p45",
+      "title": "Power Switch Replacement 3",
+      "rawTitle": "Power Switch Replacement 3",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/3_2.jpg",
+          "alt": "3 2"
+        },
+        {
+          "type": "text",
+          "text": "Pry the other side off."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/4_2.jpg",
+          "alt": "4 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/5_2.jpg",
+          "alt": "5 2"
+        },
+        {
+          "type": "text",
+          "text": "Now that you have the clip off there is a spring and the rest of the switch that will fall out. Go ahead and throw this stuff away."
+        },
+        {
+          "type": "text",
+          "text": "Before going any further look around at the switch now. See the metal tabs inside the  plastic?"
+        },
+        {
+          "type": "text",
+          "text": "You are going to want to remove the plastic, as little metal as possible to not break the solder pads."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p46"
+        },
+        {
+          "target": "Power Switch Replacement 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p44"
+        }
+      ]
+    },
+    {
+      "id": "p46",
+      "title": "Power Switch Replacement 4",
+      "rawTitle": "Power Switch Replacement 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/6_2.jpg",
+          "alt": "6 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/7_2.jpg",
+          "alt": "7 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/8_2.jpg",
+          "alt": "8 2"
+        },
+        {
+          "type": "text",
+          "text": "Take your diagonal snips and snip off the plastic, don't go so far as to try and break the metal inside, we will use your hot soldering iron to remove those."
+        },
+        {
+          "type": "text",
+          "text": "The plastic is now cracked and you can pick it off with your finger."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 5",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p47"
+        },
+        {
+          "target": "Power Switch Replacement 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p45"
+        }
+      ]
+    },
+    {
+      "id": "p47",
+      "title": "Power Switch Replacement 5",
+      "rawTitle": "Power Switch Replacement 5",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/10_2.jpg",
+          "alt": "10 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/11_2.jpg",
+          "alt": "11 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/12_2.jpg",
+          "alt": "12 2"
+        },
+        {
+          "type": "text",
+          "text": "Once the solder is getting liquidy slide it towards you lightly so you pick up the old piece of metal"
+        },
+        {
+          "type": "text",
+          "text": "Line up the new switch on the board, make sure the little metal pegs on the front of the switch fit inside the groves."
+        },
+        {
+          "type": "text",
+          "text": "Also make sure that the power legs are lined up with the solder pads."
+        },
+        {
+          "type": "text",
+          "text": "Finish desoldering the rest like the others."
+        },
+        {
+          "type": "text",
+          "text": "Make sure there isn't to much solder on the pads."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 6",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p48"
+        },
+        {
+          "target": "Power Switch Replacement 4",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p46"
+        }
+      ]
+    },
+    {
+      "id": "p48",
+      "title": "Power Switch Replacement 6",
+      "rawTitle": "Power Switch Replacement 6",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/13_2.jpg",
+          "alt": "13 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/14_2.jpg",
+          "alt": "14 2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Continue soldering each peg, Don't go to over board with the solder. It should look like this."
+        },
+        {
+          "type": "text",
+          "text": "If your board is looking like this. You have lifted a pad...or two....or three.  You are going to have some problems.."
+        },
+        {
+          "type": "text",
+          "text": "First off your switch will not be secured down to the board."
+        },
+        {
+          "type": "text",
+          "text": "Second The VIA's that you would have to solder to are very small and if you did this much damage it might only get worse."
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Switch Replacement 5",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p47"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p49",
+      "title": "Psp Analog Replacement",
+      "rawTitle": "Psp Analog Replacement",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A broken analog stick / joystick is one of the most common psp slim problems. Fortunately, it can be replaced without doing any major psp surgery."
+        },
+        {
+          "type": "text",
+          "text": "Symptoms of a broken PSP slim analog stick:"
+        },
+        {
+          "type": "text",
+          "text": "* moves on its own"
+        },
+        {
+          "type": "text",
+          "text": "* stuck in one direction"
+        },
+        {
+          "type": "text",
+          "text": "* top plastic part broken off"
+        },
+        {
+          "type": "text",
+          "text": "Stuff you will need:"
+        },
+        {
+          "type": "text",
+          "text": "* A couple of small screwdrivers (phillips, flathead)"
+        },
+        {
+          "type": "text",
+          "text": "* New PSP slim analog stick / joystick"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Analog Replacement 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p50"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p50",
+      "title": "Psp Analog Replacement 2",
+      "rawTitle": "Psp Analog Replacement 2",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "FIRST STEP: To get to the PSP slim analog stick you have to remove the faceplate (and void the warranty). This is covered in the PSP slim 2001 screen replacement tutorial. You don't have to remove the screen to remove the analog stick"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/1_4.jpg",
+          "alt": "1 4"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Analog Replacement 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p51"
+        },
+        {
+          "target": "Psp Analog Replacement",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p49"
+        }
+      ]
+    },
+    {
+      "id": "p51",
+      "title": "Psp Analog Replacement 3",
+      "rawTitle": "Psp Analog Replacement 3",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/2_3.jpg",
+          "alt": "2 3"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Lift the analog stick up and slide it out to the left. You might have to wiggle it around a little bit, but it will come out. Circled in green is the little plastic contact that lets the joystick talk to the motherboard. Try not to lose it, but if you do, that's the time you'll need to buy a new one."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Analog Replacement 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p52"
+        },
+        {
+          "target": "Psp Analog Replacement 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p50"
+        }
+      ]
+    },
+    {
+      "id": "p52",
+      "title": "Psp Analog Replacement 4",
+      "rawTitle": "Psp Analog Replacement 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/3_3.jpg",
+          "alt": "3 3"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "psp slim 2001 joystick cap off This is a shot of the joystick with the cap removed. Installation is the reverse of removal."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Analog Replacement 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p51"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p53",
+      "title": "Psp Fuse and anything MENU",
+      "rawTitle": "Psp Fuse and anything MENU",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/psp image.jpg",
+          "alt": "psp image"
+        }
+      ],
+      "links": [
+        {
+          "target": "backlight fuse 1",
+          "navtype": "jump",
+          "label": "Psp Backlight Fuse",
+          "href": "p54"
+        },
+        {
+          "target": "Repairing The USB Fuse",
+          "navtype": "jump",
+          "label": "Psp USB Fuse",
+          "href": "p58"
+        },
+        {
+          "target": "Power Fuse1",
+          "navtype": "jump",
+          "label": "Psp Power Fuse",
+          "href": "p60"
+        },
+        {
+          "target": "Parts that Commonly Replace",
+          "navtype": "jump",
+          "label": "Parts that Commonly Replace",
+          "href": "p62"
+        },
+        {
+          "target": "Page2",
+          "navtype": "jump",
+          "label": "Parts to be check if no POWER",
+          "href": "p64"
+        },
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p1"
+        }
+      ]
+    },
+    {
+      "id": "p54",
+      "title": "backlight fuse 1",
+      "rawTitle": "backlight fuse 1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "REPAIRING THE BACKLIGHT FUSE"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/bad-backlight.jpg",
+          "alt": "bad backlight"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Backlight not working? Even after replacing a Backlight?"
+        }
+      ],
+      "links": [
+        {
+          "target": "backlight fuse 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p55"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p55",
+      "title": "backlight fuse 2",
+      "rawTitle": "backlight fuse 2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Fd-Fuse 1.jpg",
+          "alt": "Fd Fuse 1"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "The fuse for the backlighting is labeled with FD on it."
+        },
+        {
+          "type": "text",
+          "text": "Test the continuity of the fuse. If there is continuity then this will not work for you."
+        }
+      ],
+      "links": [
+        {
+          "target": "backlight fuse 3",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p56"
+        },
+        {
+          "target": "backlight fuse 1",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p54"
+        }
+      ]
+    },
+    {
+      "id": "p56",
+      "title": "backlight fuse 3",
+      "rawTitle": "backlight fuse 3",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Fd-bridged 2.jpg",
+          "alt": "Fd bridged 2"
+        },
+        {
+          "type": "text",
+          "text": "You will need to take a small piece of wire and bypass the fuse by soldering the wire to the two pads on the motherboard."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "backlight fuse 4",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p57"
+        },
+        {
+          "target": "backlight fuse 2",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p55"
+        }
+      ]
+    },
+    {
+      "id": "p57",
+      "title": "backlight fuse 4",
+      "rawTitle": "backlight fuse 4",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/good-backlight 3.jpg",
+          "alt": "good backlight 3"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Now hook up your LCD screen and see if it worked."
+        },
+        {
+          "type": "text",
+          "text": "It should look something like this."
+        }
+      ],
+      "links": [
+        {
+          "target": "backlight fuse 3",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p56"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p58",
+      "title": "Repairing The USB Fuse",
+      "rawTitle": "Repairing The USB Fuse",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Ld-Fuse1.jpg",
+          "alt": "Ld Fuse1"
+        },
+        {
+          "type": "text",
+          "text": "This LD Fuse. Will cause your USB to not recognize any more."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Repairing The USB Fuse2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p59"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p59",
+      "title": "Repairing The USB Fuse2",
+      "rawTitle": "Repairing The USB Fuse2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Ld-bridged2.jpg",
+          "alt": "Ld bridged2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "If there is no continuity through this fuse, You can jumper it and hopefully fix your USB."
+        }
+      ],
+      "links": [
+        {
+          "target": "Repairing The USB Fuse",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p58"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p60",
+      "title": "Power Fuse1",
+      "rawTitle": "Power Fuse1",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "REPAIRING THE POWER FUSE"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/Power Fuse1.jpg",
+          "alt": "Power Fuse1"
+        },
+        {
+          "type": "text",
+          "text": "This Fuse will cause your PSP To not turn on at all."
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Fuse 2",
+          "navtype": "jump",
+          "label": "NEXT STEP",
+          "href": "p61"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p61",
+      "title": "Power Fuse 2",
+      "rawTitle": "Power Fuse 2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/Power fuse bridged2.jpg",
+          "alt": "Power fuse bridged2"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "The TD Fuse Is now bridged."
+        },
+        {
+          "type": "text",
+          "text": "IF THERE IS CONTINUITY THEN TRY RUNNING THE PSP MOTHERBOARD OUT OF THE CASE."
+        }
+      ],
+      "links": [
+        {
+          "target": "Power Fuse1",
+          "navtype": "jump",
+          "label": "BACK",
+          "href": "p60"
+        },
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "MAIN MENU",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p62",
+      "title": "Parts that Commonly Replace",
+      "rawTitle": "Parts that Commonly Replace",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/replacement parts for psp.jpg",
+          "alt": "replacement parts for psp"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "PARTS THAT ARE COMMONLY REPLACE"
+        },
+        {
+          "type": "text",
+          "text": "Credits to Roy Ginald for the Image"
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p53"
+        }
+      ]
+    },
+    {
+      "id": "p63",
+      "title": "Page1",
+      "rawTitle": "Page1",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/mainboard parts of psp 2000.jpg",
+          "alt": "mainboard parts of psp 2000"
+        },
+        {
+          "type": "text",
+          "text": "PSP MAINPARTS ON BOARD"
+        },
+        {
+          "type": "text",
+          "text": "Credits to Roy Ginald for the Image"
+        }
+      ],
+      "links": [
+        {
+          "target": "Main Menu",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p1"
+        }
+      ],
+      "displayTitle": "PSP Mainboard Parts"
+    },
+    {
+      "id": "p64",
+      "title": "Page2",
+      "rawTitle": "Page2",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "assets/images/problem1wh0.jpg",
+          "alt": "problem1wh0"
+        },
+        {
+          "type": "image",
+          "src": "assets/images/wanclickid signature.png",
+          "alt": "wanclickid signature"
+        },
+        {
+          "type": "text",
+          "text": "Check this parts if the Psp is not TURNING on. WATER damage will also indicates this part that mostly will be affected."
+        }
+      ],
+      "links": [
+        {
+          "target": "Psp Fuse and anything MENU",
+          "navtype": "jump",
+          "label": "BACK TO MAIN MENU",
+          "href": "p53"
+        }
+      ],
+      "displayTitle": "Parts to check if no power"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Start here",
+      "pages": [
+        "p0",
+        "p1"
+      ]
+    },
+    {
+      "title": "Disassembly guides",
+      "pages": [
+        "p2",
+        "p3",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32",
+        "p33",
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "title": "Parts & diagrams",
+      "pages": [
+        "p16",
+        "p63",
+        "p64",
+        "p62"
+      ]
+    },
+    {
+      "title": "LED tutorial",
+      "pages": [
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "title": "Repairs",
+      "pages": [
+        "p39",
+        "p40",
+        "p41",
+        "p42",
+        "p43",
+        "p44",
+        "p45",
+        "p46",
+        "p47",
+        "p48",
+        "p49",
+        "p50",
+        "p51",
+        "p52",
+        "p53",
+        "p54",
+        "p55",
+        "p56",
+        "p57",
+        "p58",
+        "p59",
+        "p60",
+        "p61"
+      ]
+    }
+  ],
+  "archiveGallery": [
+    {
+      "src": "assets/images/15_2.jpg",
+      "alt": "15 2"
+    },
+    {
+      "src": "assets/images/1_3.jpg",
+      "alt": "1 3"
+    },
+    {
+      "src": "assets/images/fig01.jpg",
+      "alt": "fig01"
+    },
+    {
+      "src": "assets/images/fig02.jpg",
+      "alt": "fig02"
+    },
+    {
+      "src": "assets/images/fig03.jpg",
+      "alt": "fig03"
+    },
+    {
+      "src": "assets/images/PSP Logo black.jpg",
+      "alt": "PSP Logo black"
+    },
+    {
+      "src": "assets/images/psp picture.jpg",
+      "alt": "psp picture"
+    },
+    {
+      "src": "assets/images/wanclickid signature 2.png",
+      "alt": "wanclickid signature 2"
+    },
+    {
+      "src": "assets/images/white.jpg",
+      "alt": "white"
+    }
+  ]
+};
