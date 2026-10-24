@@ -5,6 +5,90 @@
 
   // The original title/cover screen (p0) is intentionally excluded from the web edition.
   data.pages = data.pages.filter(page => page.id !== 'p0');
+
+  // Combine each multi-screen tutorial into one continuous page. Source block order is
+  // preserved exactly, while old step IDs remain valid aliases for existing bookmarks.
+  const originalPagesById = new Map(data.pages.map(page => [page.id, page]));
+  const mergedPageAliases = new Map();
+  const mergedPageIds = new Set();
+  const guideGroups = [
+    {
+      root: 'p3', ids: ['p3', 'p24', 'p25', 'p26', 'p27', 'p28', 'p29', 'p30', 'p31', 'p32', 'p33', 'p34', 'p35', 'p36', 'p37', 'p38'],
+      title: 'PSP Fat Disassembly Guide',
+      exits: [
+        { target: 'Psp Disassemble guide', label: 'BACK TO DISASSEMBLY MENU', href: 'p2' },
+        { target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }
+      ]
+    },
+    {
+      root: 'p4', ids: ['p4', 'p5', 'p6', 'p7', 'p8', 'p9', 'p10', 'p11', 'p12', 'p13', 'p14', 'p15'],
+      title: 'PSP Slim Disassembly Guide',
+      exits: [
+        { target: 'Psp Disassemble guide', label: 'BACK TO DISASSEMBLY MENU', href: 'p2' },
+        { target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }
+      ]
+    },
+    {
+      root: 'p17', ids: ['p17', 'p18', 'p19', 'p20', 'p21', 'p22', 'p23'],
+      title: 'PSP LED Tutorial',
+      exits: [{ target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }]
+    },
+    {
+      root: 'p39', ids: ['p39', 'p40', 'p41', 'p42'],
+      title: 'UMD Not Reading',
+      exits: [{ target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }]
+    },
+    {
+      root: 'p43', ids: ['p43', 'p44', 'p45', 'p46', 'p47', 'p48'],
+      title: 'Power Switch Replacement',
+      exits: [{ target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }]
+    },
+    {
+      root: 'p49', ids: ['p49', 'p50', 'p51', 'p52'],
+      title: 'PSP Analog Stick Replacement',
+      exits: [{ target: 'Main Menu', label: 'BACK TO MAIN MENU', href: 'p1' }]
+    },
+    {
+      root: 'p54', ids: ['p54', 'p55', 'p56', 'p57'],
+      title: 'Backlight Fuse Repair',
+      exits: [{ target: 'Psp Fuse and anything MENU', label: 'BACK TO FUSE MENU', href: 'p53' }]
+    },
+    {
+      root: 'p58', ids: ['p58', 'p59'],
+      title: 'USB Fuse Repair',
+      exits: [{ target: 'Psp Fuse and anything MENU', label: 'BACK TO FUSE MENU', href: 'p53' }]
+    },
+    {
+      root: 'p60', ids: ['p60', 'p61'],
+      title: 'Power Fuse Repair',
+      exits: [{ target: 'Psp Fuse and anything MENU', label: 'BACK TO FUSE MENU', href: 'p53' }]
+    }
+  ];
+
+  for (const guide of guideGroups) {
+    const root = originalPagesById.get(guide.root);
+    const sourcePages = guide.ids.map(id => originalPagesById.get(id));
+    if (!root || sourcePages.some(page => !page)) continue;
+
+    root.sourceTitles = sourcePages.map(page => page.title);
+    root.originalScreenCount = sourcePages.length;
+    root.title = guide.title;
+    root.displayTitle = guide.title;
+    root.blocks = sourcePages.flatMap(page => page.blocks);
+    root.links = guide.exits.map(link => ({ ...link, navtype: 'jump' }));
+
+    for (const id of guide.ids.slice(1)) {
+      mergedPageIds.add(id);
+      mergedPageAliases.set(id, guide.root);
+    }
+  }
+
+  data.pages = data.pages.filter(page => !mergedPageIds.has(page.id));
+  data.categories = data.categories.map(category => ({
+    ...category,
+    pages: category.pages.filter(id => id !== 'p0' && !mergedPageIds.has(id))
+  }));
+
   const pages = data.pages;
   const pageById = new Map(pages.map(page => [page.id, page]));
   const navigation = document.getElementById('siteNavigation');
@@ -282,7 +366,7 @@
     currentPageId = page.id;
     document.title = `${displayTitle(page)} — ${data.title}`;
     const position = pages.findIndex(item => item.id === page.id) + 1;
-    pageCounter.textContent = `Screen ${position} of ${pages.length}`;
+    pageCounter.textContent = `Page ${position} of ${pages.length}`;
     renderNavigation(page.id);
     if (searchInput.value.trim()) renderSearch();
 
@@ -291,7 +375,7 @@
     headingWrap.className = 'page-heading';
     const kicker = document.createElement('p');
     kicker.className = 'page-kicker';
-    kicker.textContent = `${categoryFor(page.id)} · screen ${String(position).padStart(2, '0')}`;
+    kicker.textContent = `${categoryFor(page.id)} · page ${String(position).padStart(2, '0')}`;
     const heading = document.createElement('h1');
     heading.textContent = displayTitle(page);
     const rule = document.createElement('div');
@@ -314,7 +398,9 @@
     const meta = document.createElement('div');
     meta.className = 'article-meta';
     const left = document.createElement('span');
-    left.textContent = `Original source screen: ${page.title}`;
+    left.textContent = page.originalScreenCount > 1
+      ? `One continuous page combining ${page.originalScreenCount} original screens`
+      : `Original guide page: ${page.title}`;
     const right = document.createElement('span');
     right.textContent = 'Text and imagery preserved from the supplied archive';
     meta.append(left, right);
@@ -322,11 +408,17 @@
   }
 
   function routeFromHash() {
-    const id = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+    const requestedId = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+    const id = mergedPageAliases.get(requestedId) || requestedId;
     return pageById.has(id) ? id : 'p1';
   }
 
   function navigateFromHash() {
+    const requestedId = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+    const aliasTarget = mergedPageAliases.get(requestedId);
+    if (aliasTarget) {
+      window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${aliasTarget}`);
+    }
     renderPage(routeFromHash());
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -368,8 +460,12 @@
   lightbox.addEventListener('click', event => { if (event.target === lightbox) closeLightbox(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape') closeLightbox(); });
 
-  if (!window.location.hash || !pageById.has(window.location.hash.slice(1))) {
+  const initialRequestedId = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+  const initialResolvedId = mergedPageAliases.get(initialRequestedId) || initialRequestedId;
+  if (!window.location.hash || !pageById.has(initialResolvedId)) {
     window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#p1`);
+  } else if (initialResolvedId !== initialRequestedId) {
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#${initialResolvedId}`);
   }
   renderPage(routeFromHash());
 })();
