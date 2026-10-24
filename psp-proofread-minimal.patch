@@ -1,0 +1,1159 @@
+diff --git a/data.js b/data.js
+index 0e1b33b..2a6725e 100644
+--- a/data.js
++++ b/data.js
+@@ -4,8 +4,8 @@ window.PSP_GUIDE_DATA = {
+   "pages": [
+     {
+       "id": "p0",
+-      "title": "Psp Repair Guide",
+-      "rawTitle": "Psp Repair Guide",
++      "title": "PSP Repair Guide",
++      "rawTitle": "PSP Repair Guide",
+       "blocks": [
+         {
+           "type": "image",
+@@ -32,7 +32,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Playstation addict"
++          "text": "PlayStation addict"
+         }
+       ],
+       "links": [
+@@ -68,25 +68,25 @@ window.PSP_GUIDE_DATA = {
+         {
+           "target": "Psp Disassemble guide",
+           "navtype": "jump",
+-          "label": "Psp Disassembly",
++          "label": "PSP Disassembly",
+           "href": "p2"
+         },
+         {
+           "target": "Psp Partlists",
+           "navtype": "jump",
+-          "label": "Psp Partlists",
++          "label": "PSP Partlists",
+           "href": "p16"
+         },
+         {
+           "target": "Page1",
+           "navtype": "jump",
+-          "label": "Psp Mainboard Parts",
++          "label": "PSP Mainboard Parts",
+           "href": "p63"
+         },
+         {
+           "target": "Psp Led Tutorial",
+           "navtype": "jump",
+-          "label": "Psp Led Tutorial",
++          "label": "PSP LED Tutorial",
+           "href": "p17"
+         },
+         {
+@@ -104,26 +104,26 @@ window.PSP_GUIDE_DATA = {
+         {
+           "target": "Psp Analog Replacement",
+           "navtype": "jump",
+-          "label": "Psp Analog Replacement",
++          "label": "PSP Analog Replacement",
+           "href": "p49"
+         },
+         {
+           "target": "Psp Fuse and anything MENU",
+           "navtype": "jump",
+-          "label": "More Tips in Psp Repair",
++          "label": "More Tips in PSP Repair",
+           "href": "p53"
+         }
+       ]
+     },
+     {
+       "id": "p2",
+-      "title": "Psp Disassemble guide",
+-      "rawTitle": "Psp Disassemble guide",
++      "title": "PSP Disassemble Guide",
++      "rawTitle": "PSP Disassemble Guide",
+       "blocks": [
+         {
+           "type": "image",
+           "src": "assets/images/slim_fat_psp.jpg",
+-          "alt": "slim fat psp"
++          "alt": "slim fat PSP"
+         },
+         {
+           "type": "image",
+@@ -145,13 +145,13 @@ window.PSP_GUIDE_DATA = {
+         {
+           "target": "Psp Fat Disassemble Guide",
+           "navtype": "jump",
+-          "label": "Psp Fat Disassemble Guide",
++          "label": "PSP Fat Disassemble Guide",
+           "href": "p3"
+         },
+         {
+           "target": "Psp Slim Disassemble Guide",
+           "navtype": "jump",
+-          "label": "Psp Slim Disassemble Guide",
++          "label": "PSP Slim Disassemble Guide",
+           "href": "p4"
+         },
+         {
+@@ -164,8 +164,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p3",
+-      "title": "Psp Fat Disassemble Guide",
+-      "rawTitle": "Psp Fat Disassemble Guide",
++      "title": "PSP Fat Disassemble Guide",
++      "rawTitle": "PSP Fat Disassemble Guide",
+       "blocks": [
+         {
+           "type": "image",
+@@ -198,12 +198,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p4",
+-      "title": "Psp Slim Disassemble Guide",
+-      "rawTitle": "Psp Slim Disassemble Guide",
++      "title": "PSP Slim Disassemble Guide",
++      "rawTitle": "PSP Slim Disassemble Guide",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "DISMATELING A PSP SLIM"
++          "text": "DISMANTLING A PSP SLIM"
+         },
+         {
+           "type": "image",
+@@ -216,7 +216,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "1x 0 or 00 Philips Screwdriver"
++          "text": "1x 0 or 00 Phillips Screwdriver"
+         },
+         {
+           "type": "text",
+@@ -253,8 +253,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p5",
+-      "title": "Psp Slim Disassemble Guide Step 2",
+-      "rawTitle": "!Psp Slim Disassemble Guide Step 2",
++      "title": "PSP Slim Disassemble Guide Step 2",
++      "rawTitle": "!PSP Slim Disassemble Guide Step 2",
+       "blocks": [
+         {
+           "type": "text",
+@@ -283,8 +283,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p6",
+-      "title": "Psp Slim Disassemble Guide Step 3",
+-      "rawTitle": "!Psp Slim Disassemble Guide Step 3",
++      "title": "PSP Slim Disassemble Guide Step 3",
++      "rawTitle": "!PSP Slim Disassemble Guide Step 3",
+       "blocks": [
+         {
+           "type": "text",
+@@ -313,8 +313,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p7",
+-      "title": "Psp Slim Disassemble Guide Step 4 & 5",
+-      "rawTitle": "%Psp Slim Disassemble Guide Step 4 & 5",
++      "title": "PSP Slim Disassemble Guide Step 4 & 5",
++      "rawTitle": "%PSP Slim Disassemble Guide Step 4 & 5",
+       "blocks": [
+         {
+           "type": "text",
+@@ -352,12 +352,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p8",
+-      "title": "Psp Slim Disassemble Guide Step 6 & 7",
+-      "rawTitle": "%Psp Slim Disassemble Guide Step 6 & 7",
++      "title": "PSP Slim Disassemble Guide Step 6 & 7",
++      "rawTitle": "%PSP Slim Disassemble Guide Step 6 & 7",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "STEP 6: Open the Clamp of the D-Pad? ribbon cable, and slip your tweezers underneath it to unseat the cable. You will also have to remove the sticky backed trigger button pad from its shelf on the back-plate, and open the Memory Stick door completely, before you can remove the D-Pad? assembly."
++          "text": "STEP 6: Open the Clamp of the D-pad ribbon cable, and slip your tweezers underneath it to unseat the cable. You will also have to remove the sticky backed trigger button pad from its shelf on the back-plate, and open the Memory Stick door completely, before you can remove the D-pad assembly."
+         },
+         {
+           "type": "text",
+@@ -391,8 +391,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p9",
+-      "title": "Psp Slim Disassemble Guide Step 8",
+-      "rawTitle": "!Psp Slim Disassemble Guide Step 8",
++      "title": "PSP Slim Disassemble Guide Step 8",
++      "rawTitle": "!PSP Slim Disassemble Guide Step 8",
+       "blocks": [
+         {
+           "type": "text",
+@@ -421,12 +421,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p10",
+-      "title": "Psp Slim Disassemble Guide Step 9",
+-      "rawTitle": "!Psp Slim Disassemble Guide Step 9",
++      "title": "PSP Slim Disassemble Guide Step 9",
++      "rawTitle": "!PSP Slim Disassemble Guide Step 9",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "STEP 9: Now, open the ribbon cable clamp for the face buttons (Square triangle, etc.) and remover the sticky backed trigger button pad from its shelf on the back-plate, and remove the face button FPC (Flexible Printed Circuit)."
++          "text": "STEP 9: Now, open the ribbon cable clamp for the face buttons (Square triangle, etc.) and remove the sticky backed trigger button pad from its shelf on the back-plate, and remove the face button FPC (Flexible Printed Circuit)."
+         },
+         {
+           "type": "image",
+@@ -435,7 +435,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."
++          "text": "STEP 10: To remove the motherboard, also known as the MoBo you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the Wi-Fi antenna. Then the MoBo can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo, and pull down to unseat the MoBo."
+         },
+         {
+           "type": "text",
+@@ -459,12 +459,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p11",
+-      "title": "Psp Slim Disassemble Guide Step 10",
+-      "rawTitle": "\"Psp Slim Disassemble Guide Step 10",
++      "title": "PSP Slim Disassemble Guide Step 10",
++      "rawTitle": "\"PSP Slim Disassemble Guide Step 10",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "STEP 10: To remove the Mother Board, also known as the MoBo? you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the WiFi? antenna. Then the MoBo? can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo?, and pull down to unseat the MoBo?."
++          "text": "STEP 10: To remove the motherboard, also known as the MoBo you must remove the ribbon cable clamps for the UMD laser and drive assembly, and the terminal for the Wi-Fi antenna. Then the MoBo can be lifted out, remember that the USB port sticks through the trim so you will have to lift from the bottom of the MoBo, and pull down to unseat the MoBo."
+         },
+         {
+           "type": "text",
+@@ -493,8 +493,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p12",
+-      "title": "Psp Slim Disassemble Guide Step 11 & 12",
+-      "rawTitle": "'Psp Slim Disassemble Guide Step 11 & 12",
++      "title": "PSP Slim Disassemble Guide Step 11 & 12",
++      "rawTitle": "'PSP Slim Disassemble Guide Step 11 & 12",
+       "blocks": [
+         {
+           "type": "text",
+@@ -532,12 +532,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p13",
+-      "title": "Psp Slim Disassemble Guide Step 13",
+-      "rawTitle": "\"Psp Slim Disassemble Guide Step 13",
++      "title": "PSP Slim Disassemble Guide Step 13",
++      "rawTitle": "\"PSP Slim Disassemble Guide Step 13",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "STEP 13: Now the really fun part, first pry the spring from the UMD door hinge, next to remove the UMD door, the best way I have found is to slide a small flat-head screw-driver into the opening from the front on the right side, and gently prying the hinge out, now there may be a better way to do this but I wasn't willing to try too many ways in the fear of scratching my PSP which was disassembled in less than hour from receiving it. Once the first hinge is removed you can easily remove the second hinge, but the door isn't off yet. You have to remove the H frame hinge from the UMD door, to do this slide the H frame to the bottom of its tracks on the door, and lateral to the door, slightly squeeze above the pins and they will be free."
++          "text": "STEP 13: Now the really fun part, first pry the spring from the UMD door hinge, next to remove the UMD door, the best way I have found is to slide a small flat-head screwdriver into the opening from the front on the right side, and gently prying the hinge out, now there may be a better way to do this but I wasn't willing to try too many ways in the fear of scratching my PSP which was disassembled in less than hour from receiving it. Once the first hinge is removed you can easily remove the second hinge, but the door isn't off yet. You have to remove the H frame hinge from the UMD door, to do this slide the H frame to the bottom of its tracks on the door, and lateral to the door, slightly squeeze above the pins and they will be free."
+         },
+         {
+           "type": "image",
+@@ -566,8 +566,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p14",
+-      "title": "Psp Slim Disassemble Guide Step 14",
+-      "rawTitle": "\"Psp Slim Disassemble Guide Step 14",
++      "title": "PSP Slim Disassemble Guide Step 14",
++      "rawTitle": "\"PSP Slim Disassemble Guide Step 14",
+       "blocks": [
+         {
+           "type": "text",
+@@ -596,12 +596,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p15",
+-      "title": "Psp Slim Disassemble Guide Step 15",
+-      "rawTitle": "\"Psp Slim Disassemble Guide Step 15",
++      "title": "PSP Slim Disassemble Guide Step 15",
++      "rawTitle": "\"PSP Slim Disassemble Guide Step 15",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "STEP 15: Now all that's left is to remove the sticky-backed WiFi? antenna from the back-plate and you are done, you now have a completely disassembled PSP Slim & Lite."
++          "text": "STEP 15: Now all that's left is to remove the sticky-backed Wi-Fi antenna from the back-plate and you are done, you now have a completely disassembled PSP Slim & Lite."
+         },
+         {
+           "type": "image",
+@@ -649,8 +649,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p16",
+-      "title": "Psp Partlists",
+-      "rawTitle": "Psp Partlists",
++      "title": "PSP Partlists",
++      "rawTitle": "PSP Partlists",
+       "blocks": [
+         {
+           "type": "image",
+@@ -659,19 +659,19 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "1. Mother Board"
++          "text": "1. motherboard"
+         },
+         {
+           "type": "text",
+-          "text": "2. WiFi Daughterboard"
++          "text": "2. Wi-Fi Daughterboard"
+         },
+         {
+           "type": "text",
+-          "text": "3. Wifi Antena"
++          "text": "3. Wi-Fi antenna"
+         },
+         {
+           "type": "text",
+-          "text": "4. D-Pad"
++          "text": "4. D-pad"
+         },
+         {
+           "type": "text",
+@@ -679,7 +679,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "6. PBA Flexcable"
++          "text": "6. PBA flex cable"
+         },
+         {
+           "type": "text",
+@@ -714,8 +714,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p17",
+-      "title": "Psp Led Tutorial",
+-      "rawTitle": "Psp Led Tutorial",
++      "title": "PSP LED Tutorial",
++      "rawTitle": "PSP LED Tutorial",
+       "blocks": [
+         {
+           "type": "image",
+@@ -724,7 +724,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "This is definitely a difficult mod, the pieces are small and the spaces are tight proceed at your own risk.   Expect to damage multiple 0603 LED's so have a corresponding # LED's extra depending on your soldering skill (making this your first soldering project is almost certain to end in disappointment).  That being said we do have a kit available"
++          "text": "This is definitely a difficult mod, the pieces are small and the spaces are tight proceed at your own risk. Expect to damage multiple 0603 LEDs so have a corresponding # LEDs extra depending on your soldering skill (making this your first soldering project is almost certain to end in disappointment). That being said we do have a kit available"
+         },
+         {
+           "type": "text",
+@@ -732,7 +732,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "000 Phillips Screw Driver"
++          "text": "000 Phillips Screwdriver"
+         },
+         {
+           "type": "text",
+@@ -760,7 +760,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "0603 SMD LED's"
++          "text": "0603 SMD LEDs"
+         },
+         {
+           "type": "text",
+@@ -798,12 +798,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p18",
+-      "title": "Psp Led Tutorial 1",
+-      "rawTitle": "Psp Led Tutorial 1",
++      "title": "PSP LED Tutorial 1",
++      "rawTitle": "PSP LED Tutorial 1",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "I find it is best to find a spring loaded tweezers.  This kind wants to close on its own when you squeeze it opens.  We sell a set that contains the tweezers that I am using in these photos."
++          "text": "I find it is best to find a spring loaded tweezers. This kind wants to close on its own when you squeeze it opens. We sell a set that contains the tweezers that I am using in these photos."
+         },
+         {
+           "type": "image",
+@@ -827,15 +827,15 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "First you will need to scrape away some of the red enamel coating to reveal the copper, then tin with fresh solder.  Tin the LED and then join the two with a breif application of heat."
++          "text": "First you will need to scrape away some of the red enamel coating to reveal the copper, then tin with fresh solder. Tin the LED and then join the two with a brief application of heat."
+         },
+         {
+           "type": "text",
+-          "text": "Once completed it looks something like this.  Notice the green marking on the bottom of the LED, think of it as an \"arrow\" that always points toward the cathode or ground side of the LED.  In this photo the cathode would be on the left wire. (once together the whole contraption becomes very delicate, simply bending the wires can cause the LED to break so do as little bending of the wire close to the LED as possible, twisting the wires together causes the wire to rotate and this will often break the LED as well so try to have your wires basically how you want them prior to soldering)"
++          "text": "Once completed it looks something like this. Notice the green marking on the bottom of the LED, think of it as an \"arrow\" that always points toward the cathode or ground side of the LED. In this photo the cathode would be on the left wire. (once together the whole contraption becomes very delicate, simply bending the wires can cause the LED to break so do as little bending of the wire close to the LED as possible, twisting the wires together causes the wire to rotate and this will often break the LED as well so try to have your wires basically how you want them prior to soldering)"
+         },
+         {
+           "type": "text",
+-          "text": "Prepare the trigger by drilling a small hole.  I used a 5/64 drill bit.  Try to use the plastic tabs the protrude from the sides as a general guide, you want to be parallel with them and go in about as deep as they go"
++          "text": "Prepare the trigger by drilling a small hole. I used a 5/64 drill bit. Try to use the plastic tabs the protrude from the sides as a general guide, you want to be parallel with them and go in about as deep as they go"
+         },
+         {
+           "type": "image",
+@@ -860,8 +860,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p19",
+-      "title": "Psp Led Tutorial 2",
+-      "rawTitle": "Psp Led Tutorial 2",
++      "title": "PSP LED Tutorial 2",
++      "rawTitle": "PSP LED Tutorial 2",
+       "blocks": [
+         {
+           "type": "image",
+@@ -889,7 +889,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Put a little hot glue on the led and over the hole and insert the LED as deep as it goes with the bright side facing the long side of the trigger."
++          "text": "Put a little hot glue on the LED and over the hole and insert the LED as deep as it goes with the bright side facing the long side of the trigger."
+         },
+         {
+           "type": "text",
+@@ -922,8 +922,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p20",
+-      "title": "Psp Led Tutorial 3",
+-      "rawTitle": "Psp Led Tutorial 3",
++      "title": "PSP LED Tutorial 3",
++      "rawTitle": "PSP LED Tutorial 3",
+       "blocks": [
+         {
+           "type": "image",
+@@ -942,15 +942,15 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "We use the same method to attach the other LED's as we did with the trigger button LED's.  For the D-Pad it is necessary to cut a little notch for the wires.  A little hotglue keeps it in place"
++          "text": "We use the same method to attach the other LEDs as we did with the trigger button LEDs. For the D-pad it is necessary to cut a little notch for the wires. A little hot glue keeps it in place"
+         },
+         {
+           "type": "text",
+-          "text": "To keep the D-Pad working freely it is important to bore a couple holes so the wires do not need to travel under the rubber pad for far"
++          "text": "To keep the D-pad working freely it is important to bore a couple holes so the wires do not need to travel under the rubber pad too far"
+         },
+         {
+           "type": "text",
+-          "text": "To balance things out we added another LED on the right side in the middle of the ABXY buttons (aka trinagle square etc) just stick it in there and shoot some hot glue down from above"
++          "text": "To balance things out we added another LED on the right side in the middle of the ABXY buttons (aka triangle square etc) just stick it in there and shoot some hot glue down from above"
+         },
+         {
+           "type": "image",
+@@ -975,8 +975,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p21",
+-      "title": "Psp Led Tutorial 4",
+-      "rawTitle": "Psp Led Tutorial 4",
++      "title": "PSP LED Tutorial 4",
++      "rawTitle": "PSP LED Tutorial 4",
+       "blocks": [
+         {
+           "type": "image",
+@@ -994,11 +994,11 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Updates: It appears possible to skip the transistor and just wire it in direct.  I definitely like this idea from an ease of solder-ability standpoint.  And Hey if it works it works.  view/provide Survey Feedback on the reliability of this method"
++          "text": "Updates: It appears possible to skip the transistor and just wire it in direct. I definitely like this idea from an ease of solderability standpoint. And Hey if it works it works. view/provide Survey Feedback on the reliability of this method"
+         },
+         {
+           "type": "text",
+-          "text": "Also see our Forum Discussion many have reported success eliminating the transistor and simply wiring a resistor and the LED's between the power and ground for the onboard LED.  I made an assumption that the circuit was built with just enough to power one LED, apparently the circuit is made well enough that nothing burns out."
++          "text": "Also see our Forum Discussion many have reported success eliminating the transistor and simply wiring a resistor and the LEDs between the power and ground for the onboard LED. I made an assumption that the circuit was built with just enough to power one LED, apparently the circuit is made well enough that nothing burns out."
+         },
+         {
+           "type": "image",
+@@ -1023,8 +1023,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p22",
+-      "title": "Psp Led Tutorial 5",
+-      "rawTitle": "Psp Led Tutorial 5",
++      "title": "PSP LED Tutorial 5",
++      "rawTitle": "PSP LED Tutorial 5",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1033,7 +1033,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Run wires from the positive point for the power led to a 10 Ohm resistor, then into all the positive legs of the LED's.  Then out from all the negative LED legs to the ground point on the ABXY printed circuit board."
++          "text": "Run wires from the positive point for the power LED to a 10 Ohm resistor, then into all the positive legs of the LEDs. Then out from all the negative LED legs to the ground point on the ABXY printed circuit board."
+         },
+         {
+           "type": "image",
+@@ -1063,8 +1063,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p23",
+-      "title": "Psp Led Tutorial 6",
+-      "rawTitle": "Psp Led Tutorial 6",
++      "title": "PSP LED Tutorial 6",
++      "rawTitle": "PSP LED Tutorial 6",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1087,7 +1087,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "As promised when the yellow LED is on the blue ones are off.   I will probably be opening it back up to do some re routing, every button is working but the D pad feels a bit funky and the home button is kind of tight due to my placement of wires coming too close to the buttons."
++          "text": "As promised when the yellow LED is on the blue ones are off. I will probably be opening it back up to do some rerouting, every button is working but the D pad feels a bit funky and the home button is kind of tight due to my placement of wires coming too close to the buttons."
+         }
+       ],
+       "links": [
+@@ -1107,8 +1107,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p24",
+-      "title": "Psp Disassemble Guide 2",
+-      "rawTitle": "Psp Disassemble Guide 2",
++      "title": "PSP Disassemble Guide 2",
++      "rawTitle": "PSP Disassemble Guide 2",
+       "blocks": [
+         {
+           "type": "text",
+@@ -1141,8 +1141,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p25",
+-      "title": "Psp Disassemble Guide 3",
+-      "rawTitle": "Psp Disassemble Guide 3",
++      "title": "PSP Disassemble Guide 3",
++      "rawTitle": "PSP Disassemble Guide 3",
+       "blocks": [
+         {
+           "type": "text",
+@@ -1175,8 +1175,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p26",
+-      "title": "Psp Disassemble Guide 4",
+-      "rawTitle": "Psp Disassemble Guide 4",
++      "title": "PSP Disassemble Guide 4",
++      "rawTitle": "PSP Disassemble Guide 4",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1205,8 +1205,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p27",
+-      "title": "Psp Disassemble Guide 5",
+-      "rawTitle": "Psp Disassemble Guide 5",
++      "title": "PSP Disassemble Guide 5",
++      "rawTitle": "PSP Disassemble Guide 5",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1235,8 +1235,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p28",
+-      "title": "Psp Disassemble Guide 6",
+-      "rawTitle": "Psp Disassemble Guide 6",
++      "title": "PSP Disassemble Guide 6",
++      "rawTitle": "PSP Disassemble Guide 6",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1265,8 +1265,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p29",
+-      "title": "Psp Disassemble Guide 7",
+-      "rawTitle": "Psp Disassemble Guide 7",
++      "title": "PSP Disassemble Guide 7",
++      "rawTitle": "PSP Disassemble Guide 7",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1299,8 +1299,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p30",
+-      "title": "Psp Disassemble Guide 8",
+-      "rawTitle": "Psp Disassemble Guide 8",
++      "title": "PSP Disassemble Guide 8",
++      "rawTitle": "PSP Disassemble Guide 8",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1309,7 +1309,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "under that is your motherboard and your Dpad and your ABXY Power board. You remove the screw holding your DPAD down, and then remove the ribbon the same as you have already.. Dpad Screw is Here"
++          "text": "under that is your motherboard and your D-pad and your ABXY Power board. You remove the screw holding your D-pad down, and then remove the ribbon the same as you have already.. D-pad Screw is Here"
+         }
+       ],
+       "links": [
+@@ -1329,8 +1329,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p31",
+-      "title": "Psp Disassemble Guide 9",
+-      "rawTitle": "Psp Disassemble Guide 9",
++      "title": "PSP Disassemble Guide 9",
++      "rawTitle": "PSP Disassemble Guide 9",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1339,7 +1339,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Then you remove the ABXY Power switch but carefully making sure that you get the little black nub out of the power switch on the outside. Note: when you remove that always take special care to know where that black nub is for the switch It's the easiest thing to break if you aren't careful When you reinstall the power board always make sure that nub is in the outer area of the switch correctly Before you push the board into place.told me about how he took all day doing a huge LED mod and everything thing worked. Broke the switch off reinstalling it. Made the whole thing useless. I've broken the switch once. And I will not do it again."
++          "text": "Then you remove the ABXY Power switch but carefully making sure that you get the little black nub out of the power switch on the outside. Note: when you remove that always take special care to know where that black nub is for the switch It's the easiest thing to break if you aren't careful When you reinstall the power board always make sure that nub is in the outer area of the switch correctly Before you push the board into place. told me about how he took all day doing a huge LED mod and everything thing worked. Broke the switch off reinstalling it. Made the whole thing useless. I've broken the switch once. And I will not do it again."
+         },
+         {
+           "type": "text",
+@@ -1363,8 +1363,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p32",
+-      "title": "Psp Disassemble Guide 10",
+-      "rawTitle": "Psp Disassemble Guide 10",
++      "title": "PSP Disassemble Guide 10",
++      "rawTitle": "PSP Disassemble Guide 10",
+       "blocks": [
+         {
+           "type": "text",
+@@ -1405,8 +1405,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p33",
+-      "title": "Psp Disassemble Guide 11",
+-      "rawTitle": "Psp Disassemble Guide 11",
++      "title": "PSP Disassemble Guide 11",
++      "rawTitle": "PSP Disassemble Guide 11",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1415,11 +1415,11 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Now you need to remove the antennae from the right side of the psp. It's easy you just ease the antennae piece up from the black plastic and then disconnect the black tape that holds the cord down so you have free access to the motherboard. Here is a Rundown of everything you would be removing and where it is.."
++          "text": "Now you need to remove the antennae from the right side of the PSP. It's easy you just ease the antennae piece up from the black plastic and then disconnect the black tape that holds the cord down so you have free access to the motherboard. Here is a Rundown of everything you would be removing and where it is.."
+         },
+         {
+           "type": "text",
+-          "text": "Now you can carefully remove the Motherboard by pulling up the top left hand side which detaches the male/female port that attaches the MEMcard reader and the bottom of the Motherboard. Then you carefully tilt the bottom of the Motherboard up so you can slide the USB port out of the top of the case and remove the motherboard. You will feel it disconnect. It doesn't take much force. It's like a plug kinda. It's just on the bottom of the motherboard. Now you should have the Motherboard out. The antennae will still be attached to the Wifi card and MEM stick reader. Just carefully set that down and then get to work on the small metal cage that covers it up."
++          "text": "Now you can carefully remove the Motherboard by pulling up the top left hand side which detaches the male/female port that attaches the MEM card reader and the bottom of the Motherboard. Then you carefully tilt the bottom of the Motherboard up so you can slide the USB port out of the top of the case and remove the motherboard. You will feel it disconnect. It doesn't take much force. It's like a plug kinda. It's just on the bottom of the motherboard. Now you should have the Motherboard out. The antennae will still be attached to the Wi-Fi card and MEM stick reader. Just carefully set that down and then get to work on the small metal cage that covers it up."
+         }
+       ],
+       "links": [
+@@ -1439,8 +1439,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p34",
+-      "title": "Psp Disassemble Guide 12",
+-      "rawTitle": "Psp Disassemble Guide 12",
++      "title": "PSP Disassemble Guide 12",
++      "rawTitle": "PSP Disassemble Guide 12",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1453,7 +1453,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "After you get it up you should notice that there is one small black screw to the right that doesn't seem to hold anything. It holds the UMD Door in place. Remove it. Now if you played your cards right you should be able to use a small exacto-knife from the back of the case with the UMD door open and place it at the base of the umd door inside and pry it carefully to the inside. Think *CD Case Backwards*. You know how the CD case holds in those little holes on the case to keep the case on it? Image that with the pegs backwards. that's how the door holds on. Once you get one side out you carefully wiggle out the other side and it will come right out."
++          "text": "After you get it up you should notice that there is one small black screw to the right that doesn't seem to hold anything. It holds the UMD Door in place. Remove it. Now if you played your cards right you should be able to use a small X-Acto knife from the back of the case with the UMD door open and place it at the base of the umd door inside and pry it carefully to the inside. Think *CD Case Backwards*. You know how the CD case holds in those little holes on the case to keep the case on it? Imagine that with the pegs backwards. that's how the door holds on. Once you get one side out you carefully wiggle out the other side and it will come right out."
+         }
+       ],
+       "links": [
+@@ -1473,8 +1473,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p35",
+-      "title": "Psp Disassemble Guide 13",
+-      "rawTitle": "Psp Disassemble Guide 13",
++      "title": "PSP Disassemble Guide 13",
++      "rawTitle": "PSP Disassemble Guide 13",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1503,8 +1503,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p36",
+-      "title": "Psp Disassemble Guide 14",
+-      "rawTitle": "Psp Disassemble Guide 14",
++      "title": "PSP Disassemble Guide 14",
++      "rawTitle": "PSP Disassemble Guide 14",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1541,8 +1541,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p37",
+-      "title": "Psp Disassemble Guide 15",
+-      "rawTitle": "Psp Disassemble Guide 15",
++      "title": "PSP Disassemble Guide 15",
++      "rawTitle": "PSP Disassemble Guide 15",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1563,7 +1563,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Once it is loose you remove the mem stick door from the PSP. Now you have to get the Rubber piece off of it so you can install it into your new case. You need a small pair of computer pliers and an exacto knife. The rubbery plastic will separate from the black mem stick door, There are five small black pins holding it on. If you look at the clear one (Coolmods) you will see those pins, The Sony Black OEM case has larger ends on the"
++          "text": "Once it is loose you remove the mem stick door from the PSP. Now you have to get the Rubber piece off of it so you can install it into your new case. You need a small pair of computer pliers and an X-Acto knife. The rubbery plastic will separate from the black mem stick door, There are five small black pins holding it on. If you look at the clear one (Coolmods) you will see those pins, The Sony Black OEM case has larger ends on the"
+         },
+         {
+           "type": "text",
+@@ -1571,7 +1571,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Be sure you note that the clear case isn't going to fit like a glove. You may need to use more force to get some things to fit but be careful. If you find it won't fit, try sanding the open port on the case to try and make a better fit. ( Had a particularly interesting time with my Wifi Card Fitting right.. I got it in there eventually though."
++          "text": "Be sure you note that the clear case isn't going to fit like a glove. You may need to use more force to get some things to fit but be careful. If you find it won't fit, try sanding the open port on the case to try and make a better fit. ( Had a particularly interesting time with my Wi-Fi Card Fitting right.. I got it in there eventually though."
+         }
+       ],
+       "links": [
+@@ -1591,8 +1591,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p38",
+-      "title": "Psp Disassemble Guide 16",
+-      "rawTitle": "Psp Disassemble Guide 16",
++      "title": "PSP Disassemble Guide 16",
++      "rawTitle": "PSP Disassemble Guide 16",
+       "blocks": [
+         {
+           "type": "image",
+@@ -1601,7 +1601,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "One thing that many Pspmodders have been talking about is the UMD Drive Gears stopping the PSP from loading UMDs. If this doesn't happen then don't worry about it. If you can hear the UMD gears turning, then you have this problem. The easiest way to solve this is to dremel off the plastic piece that covers up the UMD Gears. but you risk getting you speaker wires. The best way I found to solve this is to take a Dremel with a round head and just round out whichever side of the round area on the bottom of the plastic piece doesn't get enough clearance to let the gear move. (If you don't have a dremel, then a sharp knife should do.. Just be careful and take little bits at a time.) Just look at your Clear case and where the gears go and I'm sure you will see that they would get slowed down. Use your best judgment and take little bits at a time till you get it right! (T3KN1K4L"
++          "text": "One thing that many PSP modders have been talking about is the UMD Drive Gears stopping the PSP from loading UMDs. If this doesn't happen then don't worry about it. If you can hear the UMD gears turning, then you have this problem. The easiest way to solve this is to Dremel off the plastic piece that covers up the UMD Gears. but you risk getting your speaker wires. The best way I found to solve this is to take a Dremel with a round head and just round out whichever side of the round area on the bottom of the plastic piece doesn't get enough clearance to let the gear move. (If you don't have a Dremel, then a sharp knife should do.. Just be careful and take little bits at a time.) Just look at your Clear case and where the gears go and I'm sure you will see that they would get slowed down. Use your best judgment and take little bits at a time till you get it right! (T3KN1K4L"
+         },
+         {
+           "type": "text",
+@@ -1629,7 +1629,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "The second is the Wifi Switch. It's basic. just see how it goes in there. Pretty much the same as the power switch, and remove it. then you can use"
++          "text": "The second is the Wi-Fi Switch. It's basic. just see how it goes in there. Pretty much the same as the power switch, and remove it. then you can use"
+         },
+         {
+           "type": "text",
+@@ -1670,11 +1670,11 @@ window.PSP_GUIDE_DATA = {
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "I have seen many PSP's stop reading UMD discs and for the most part they are repairable with the least amount of opening your PSP."
++          "text": "I have seen many PSPs stop reading UMD discs and for the most part they are repairable with the least amount of opening your PSP."
+         },
+         {
+           "type": "text",
+-          "text": "First we will do some trouble shooting with what might be wrong with your PSP unit."
++          "text": "First we will do some troubleshooting with what might be wrong with your PSP unit."
+         },
+         {
+           "type": "text",
+@@ -1751,7 +1751,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "If the Motor is not spinning.  is it moving slightly? Maybe a little twitch?"
++          "text": "If the Motor is not spinning. is it moving slightly? Maybe a little twitch?"
+         },
+         {
+           "type": "text",
+@@ -1771,11 +1771,11 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Can you hear the disc spin up? If not I would take the disc out again and press the switch with your probe again.  if the disc motor is spinning again, look around to see if the metal housing is obstructing the disc when you put it in.. there could be to much pressure for the disc to spin freely."
++          "text": "Can you hear the disc spin up? If not I would take the disc out again and press the switch with your probe again. if the disc motor is spinning again, look around to see if the metal housing is obstructing the disc when you put it in.. there could be too much pressure for the disc to spin freely."
+         },
+         {
+           "type": "text",
+-          "text": "Can you hear the Laser focus? This might be hard to hear it will sound like a little tick. If you cant hear it tick I would move on and inspect this internally  later."
++          "text": "Can you hear the Laser focus? This might be hard to hear it will sound like a little tick. If you can't hear it tick I would move on and inspect this internally later."
+         },
+         {
+           "type": "text",
+@@ -1856,7 +1856,7 @@ window.PSP_GUIDE_DATA = {
+         {
+           "type": "image",
+           "src": "assets/images/psp slim-fat.jpg",
+-          "alt": "psp slim fat"
++          "alt": "PSP slim fat"
+         },
+         {
+           "type": "text",
+@@ -1921,7 +1921,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "There are two methods for fixing it, one is purchase a new switch or a whole new Powerboard."
++          "text": "There are two methods for fixing it, one is purchase a new switch or a whole new power board."
+         },
+         {
+           "type": "text",
+@@ -1946,7 +1946,7 @@ window.PSP_GUIDE_DATA = {
+         {
+           "type": "image",
+           "src": "assets/images/lifted psp switch.jpg",
+-          "alt": "lifted psp switch"
++          "alt": "lifted PSP switch"
+         },
+         {
+           "type": "text",
+@@ -2075,7 +2075,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Before going any further look around at the switch now. See the metal tabs inside the  plastic?"
++          "text": "Before going any further look around at the switch now. See the metal tabs inside the plastic?"
+         },
+         {
+           "type": "text",
+@@ -2177,7 +2177,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Line up the new switch on the board, make sure the little metal pegs on the front of the switch fit inside the groves."
++          "text": "Line up the new switch on the board, make sure the little metal pegs on the front of the switch fit inside the grooves."
+         },
+         {
+           "type": "text",
+@@ -2189,7 +2189,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Make sure there isn't to much solder on the pads."
++          "text": "Make sure there isn't too much solder on the pads."
+         },
+         {
+           "type": "image",
+@@ -2234,11 +2234,11 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Continue soldering each peg, Don't go to over board with the solder. It should look like this."
++          "text": "Continue soldering each peg, Don't go to overboard with the solder. It should look like this."
+         },
+         {
+           "type": "text",
+-          "text": "If your board is looking like this. You have lifted a pad...or two....or three.  You are going to have some problems.."
++          "text": "If your board is looking like this. You have lifted a pad...or two....or three. You are going to have some problems.."
+         },
+         {
+           "type": "text",
+@@ -2246,7 +2246,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Second The VIA's that you would have to solder to are very small and if you did this much damage it might only get worse."
++          "text": "Second The VIAs that you would have to solder to are very small and if you did this much damage it might only get worse."
+         }
+       ],
+       "links": [
+@@ -2266,12 +2266,12 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p49",
+-      "title": "Psp Analog Replacement",
+-      "rawTitle": "Psp Analog Replacement",
++      "title": "PSP Analog Replacement",
++      "rawTitle": "PSP Analog Replacement",
+       "blocks": [
+         {
+           "type": "text",
+-          "text": "A broken analog stick / joystick is one of the most common psp slim problems. Fortunately, it can be replaced without doing any major psp surgery."
++          "text": "A broken analog stick / joystick is one of the most common PSP slim problems. Fortunately, it can be replaced without doing any major PSP surgery."
+         },
+         {
+           "type": "text",
+@@ -2324,8 +2324,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p50",
+-      "title": "Psp Analog Replacement 2",
+-      "rawTitle": "Psp Analog Replacement 2",
++      "title": "PSP Analog Replacement 2",
++      "rawTitle": "PSP Analog Replacement 2",
+       "blocks": [
+         {
+           "type": "text",
+@@ -2359,8 +2359,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p51",
+-      "title": "Psp Analog Replacement 3",
+-      "rawTitle": "Psp Analog Replacement 3",
++      "title": "PSP Analog Replacement 3",
++      "rawTitle": "PSP Analog Replacement 3",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2394,8 +2394,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p52",
+-      "title": "Psp Analog Replacement 4",
+-      "rawTitle": "Psp Analog Replacement 4",
++      "title": "PSP Analog Replacement 4",
++      "rawTitle": "PSP Analog Replacement 4",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2409,7 +2409,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "psp slim 2001 joystick cap off This is a shot of the joystick with the cap removed. Installation is the reverse of removal."
++          "text": "PSP slim 2001 joystick cap off This is a shot of the joystick with the cap removed. Installation is the reverse of removal."
+         }
+       ],
+       "links": [
+@@ -2429,44 +2429,44 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p53",
+-      "title": "Psp Fuse and anything MENU",
+-      "rawTitle": "Psp Fuse and anything MENU",
++      "title": "PSP Fuse and Anything MENU",
++      "rawTitle": "PSP Fuse and Anything MENU",
+       "blocks": [
+         {
+           "type": "image",
+           "src": "assets/images/psp image.jpg",
+-          "alt": "psp image"
++          "alt": "PSP image"
+         }
+       ],
+       "links": [
+         {
+           "target": "backlight fuse 1",
+           "navtype": "jump",
+-          "label": "Psp Backlight Fuse",
++          "label": "PSP Backlight Fuse",
+           "href": "p54"
+         },
+         {
+           "target": "Repairing The USB Fuse",
+           "navtype": "jump",
+-          "label": "Psp USB Fuse",
++          "label": "PSP USB Fuse",
+           "href": "p58"
+         },
+         {
+           "target": "Power Fuse1",
+           "navtype": "jump",
+-          "label": "Psp Power Fuse",
++          "label": "PSP Power Fuse",
+           "href": "p60"
+         },
+         {
+           "target": "Parts that Commonly Replace",
+           "navtype": "jump",
+-          "label": "Parts that Commonly Replace",
++          "label": "Parts That Commonly Replace",
+           "href": "p62"
+         },
+         {
+           "target": "Page2",
+           "navtype": "jump",
+-          "label": "Parts to be check if no POWER",
++          "label": "Parts to Be Check If No POWER",
+           "href": "p64"
+         },
+         {
+@@ -2479,8 +2479,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p54",
+-      "title": "backlight fuse 1",
+-      "rawTitle": "backlight fuse 1",
++      "title": "Backlight Fuse 1",
++      "rawTitle": "Backlight Fuse 1",
+       "blocks": [
+         {
+           "type": "text",
+@@ -2518,8 +2518,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p55",
+-      "title": "backlight fuse 2",
+-      "rawTitle": "backlight fuse 2",
++      "title": "Backlight Fuse 2",
++      "rawTitle": "Backlight Fuse 2",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2557,8 +2557,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p56",
+-      "title": "backlight fuse 3",
+-      "rawTitle": "backlight fuse 3",
++      "title": "Backlight Fuse 3",
++      "rawTitle": "Backlight Fuse 3",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2592,8 +2592,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p57",
+-      "title": "backlight fuse 4",
+-      "rawTitle": "backlight fuse 4",
++      "title": "Backlight Fuse 4",
++      "rawTitle": "Backlight Fuse 4",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2631,8 +2631,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p58",
+-      "title": "Repairing The USB Fuse",
+-      "rawTitle": "Repairing The USB Fuse",
++      "title": "Repairing the USB Fuse",
++      "rawTitle": "Repairing the USB Fuse",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2666,8 +2666,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p59",
+-      "title": "Repairing The USB Fuse2",
+-      "rawTitle": "Repairing The USB Fuse2",
++      "title": "Repairing the USB Fuse 2",
++      "rawTitle": "Repairing the USB Fuse 2",
+       "blocks": [
+         {
+           "type": "image",
+@@ -2701,8 +2701,8 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p60",
+-      "title": "Power Fuse1",
+-      "rawTitle": "Power Fuse1",
++      "title": "Power Fuse 1",
++      "rawTitle": "Power Fuse 1",
+       "blocks": [
+         {
+           "type": "text",
+@@ -2779,13 +2779,13 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "id": "p62",
+-      "title": "Parts that Commonly Replace",
+-      "rawTitle": "Parts that Commonly Replace",
++      "title": "Parts That Commonly Replace",
++      "rawTitle": "Parts That Commonly Replace",
+       "blocks": [
+         {
+           "type": "image",
+           "src": "assets/images/replacement parts for psp.jpg",
+-          "alt": "replacement parts for psp"
++          "alt": "replacement parts for PSP"
+         },
+         {
+           "type": "image",
+@@ -2818,11 +2818,11 @@ window.PSP_GUIDE_DATA = {
+         {
+           "type": "image",
+           "src": "assets/images/mainboard parts of psp 2000.jpg",
+-          "alt": "mainboard parts of psp 2000"
++          "alt": "mainboard parts of PSP 2000"
+         },
+         {
+           "type": "text",
+-          "text": "PSP MAINPARTS ON BOARD"
++          "text": "PSP MAIN PARTS ON BOARD"
+         },
+         {
+           "type": "text",
+@@ -2856,7 +2856,7 @@ window.PSP_GUIDE_DATA = {
+         },
+         {
+           "type": "text",
+-          "text": "Check this parts if the Psp is not TURNING on. WATER damage will also indicates this part that mostly will be affected."
++          "text": "Check this parts if the PSP is not TURNING on. WATER damage will also indicates this part that mostly will be affected."
+         }
+       ],
+       "links": [
+@@ -2867,19 +2867,19 @@ window.PSP_GUIDE_DATA = {
+           "href": "p53"
+         }
+       ],
+-      "displayTitle": "Parts to check if no power"
++      "displayTitle": "Parts to Check If No Power"
+     }
+   ],
+   "categories": [
+     {
+-      "title": "Start here",
++      "title": "Start Here",
+       "pages": [
+         "p0",
+         "p1"
+       ]
+     },
+     {
+-      "title": "Disassembly guides",
++      "title": "Disassembly Guides",
+       "pages": [
+         "p2",
+         "p3",
+@@ -2913,7 +2913,7 @@ window.PSP_GUIDE_DATA = {
+       ]
+     },
+     {
+-      "title": "Parts & diagrams",
++      "title": "Parts & Diagrams",
+       "pages": [
+         "p16",
+         "p63",
+@@ -2922,7 +2922,7 @@ window.PSP_GUIDE_DATA = {
+       ]
+     },
+     {
+-      "title": "LED tutorial",
++      "title": "LED Tutorial",
+       "pages": [
+         "p17",
+         "p18",
+@@ -2989,7 +2989,7 @@ window.PSP_GUIDE_DATA = {
+     },
+     {
+       "src": "assets/images/psp picture.jpg",
+-      "alt": "psp picture"
++      "alt": "PSP picture"
+     },
+     {
+       "src": "assets/images/wanclickid signature 2.png",
